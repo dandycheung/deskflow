@@ -24,23 +24,28 @@
 #include <string>
 #include <vector>
 
-#if HAVE_TOMLPLUSPLUS
-#include <toml++/toml.hpp>
-#endif
+// Use .h for fallback with 3.3.0
+#include <toml++/toml.h>
 
 namespace deskflow {
 
-Config::Config(const std::string &filename, const std::string &section)
-    : m_filename(filename),
-      m_section(section) {}
+Config::Config(const std::string &filename, const std::string &section) : m_filename(filename), m_section(section)
+{
+}
 
-const char *const *Config::argv() const { return m_argv.data(); }
+const char *const *Config::argv() const
+{
+  return m_argv.data();
+}
 
-int Config::argc() const { return static_cast<int>(m_argv.size()); }
+int Config::argc() const
+{
+  return static_cast<int>(m_argv.size());
+}
 
-bool Config::load(const std::string &firstArg) {
+bool Config::load(const std::string &firstArg)
+{
 
-#if HAVE_TOMLPLUSPLUS
   if (!firstArg.empty()) {
     m_args.push_back(firstArg);
   }
@@ -61,6 +66,9 @@ bool Config::load(const std::string &firstArg) {
 
   } catch (const toml::parse_error &err) {
     LOG((CLOG_ERR "toml parse error: %s", err.what()));
+    throw ParseError();
+  } catch (const std::exception &err) {
+    LOG((CLOG_ERR "unknown parse error: %s", err.what()));
     throw ParseError();
   }
 
@@ -107,10 +115,6 @@ bool Config::load(const std::string &firstArg) {
   }
 
   return true;
-#else
-  LOG((CLOG_ERR "toml++ not available, config file not loaded"));
-  return false;
-#endif // HAVE_TOMLPLUSPLUS
 }
 
 } // namespace deskflow

@@ -15,6 +15,7 @@
       "cwd": "${workspaceRoot}",
       "request": "launch",
       "program": "${workspaceFolder}/build/bin/unittests",
+      "args": [ "${input:gtest-args}" ],
       "preLaunchTask": "build"
     },
     {
@@ -23,14 +24,15 @@
       "cwd": "${workspaceRoot}",
       "request": "launch",
       "program": "${workspaceFolder}/build/bin/integtests",
-      "preLaunchTask": "build"
+      "args": [ "${input:gtest-args}" ],
+      "preLaunchTask": "build",
     },
     {
       "name": "unix - server",
       "type": "lldb",
       "cwd": "${workspaceRoot}",
       "request": "launch",
-      "program": "${workspaceFolder}/build/bin/deskflows",
+      "program": "${workspaceFolder}/build/bin/deskflow-server",
       "args": ["--config-toml", "deskflow-config.toml"],
       "preLaunchTask": "kill-build"
     },
@@ -64,6 +66,7 @@
       "cwd": "${workspaceRoot}",
       "request": "launch",
       "program": "${workspaceFolder}/build/bin/unittests",
+      "args": [ "${input:gtest-args}" ],
       "internalConsoleOptions": "openOnSessionStart",
       "preLaunchTask": "build"
     },
@@ -73,6 +76,7 @@
       "cwd": "${workspaceRoot}",
       "request": "launch",
       "program": "${workspaceFolder}/build/bin/integtests",
+      "args": [ "${input:gtest-args}" ],
       "internalConsoleOptions": "openOnSessionStart",
       "preLaunchTask": "build"
     },
@@ -118,6 +122,14 @@
       "request": "launch",
       "program": "scripts/install_deps.py",
       "console": "integratedTerminal"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "gtest-args",
+      "type": "promptString",
+      "description": "Test arguments",
+      "default": "--gtest_filter=*"
     }
   ]
 }
