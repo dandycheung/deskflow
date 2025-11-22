@@ -8,6 +8,7 @@ var hierarchy =
       [ "InputFilter::MouseButtonAction", "classInputFilter_1_1MouseButtonAction.html", null ],
       [ "InputFilter::RestartServer", "classInputFilter_1_1RestartServer.html", null ],
       [ "InputFilter::SwitchInDirectionAction", "classInputFilter_1_1SwitchInDirectionAction.html", null ],
+      [ "InputFilter::SwitchToNextScreenAction", "classInputFilter_1_1SwitchToNextScreenAction.html", null ],
       [ "InputFilter::SwitchToScreenAction", "classInputFilter_1_1SwitchToScreenAction.html", null ]
     ] ],
     [ "ActionDialog::ActionTypes", "structActionDialog_1_1ActionTypes.html", null ],
@@ -34,15 +35,7 @@ var hierarchy =
     [ "ArchMutexLock", "classArchMutexLock.html", null ],
     [ "ArchNetAddressImpl", "classArchNetAddressImpl.html", null ],
     [ "ArchSocketImpl", "classArchSocketImpl.html", null ],
-    [ "ArchString", "classArchString.html", [
-      [ "Arch", "classArch.html", null ]
-    ] ],
     [ "ArchThreadImpl", "classArchThreadImpl.html", null ],
-    [ "ArgParser", "classArgParser.html", null ],
-    [ "deskflow::ArgsBase", "classdeskflow_1_1ArgsBase.html", [
-      [ "deskflow::ClientArgs", "classdeskflow_1_1ClientArgs.html", null ],
-      [ "deskflow::ServerArgs", "classdeskflow_1_1ServerArgs.html", null ]
-    ] ],
     [ "deskflow::KeyMap::Keystroke::Button", "structdeskflow_1_1KeyMap_1_1Keystroke_1_1Button.html", null ],
     [ "IPrimaryScreen::ButtonInfo", "classIPrimaryScreen_1_1ButtonInfo.html", null ],
     [ "deskflow::string::CaselessCmp", "classdeskflow_1_1string_1_1CaselessCmp.html", null ],
@@ -57,7 +50,6 @@ var hierarchy =
     [ "ClientListener", "classClientListener.html", null ],
     [ "ClientProxyUnknown", "classClientProxyUnknown.html", null ],
     [ "IScreen::ClipboardInfo", "structIScreen_1_1ClipboardInfo.html", null ],
-    [ "codepair", "structcodepair.html", null ],
     [ "InputFilter::Condition", "classInputFilter_1_1Condition.html", [
       [ "InputFilter::KeystrokeCondition", "classInputFilter_1_1KeystrokeCondition.html", null ],
       [ "InputFilter::MouseButtonCondition", "classInputFilter_1_1MouseButtonCondition.html", null ],
@@ -67,17 +59,17 @@ var hierarchy =
       [ "CondVar< bool >", "classCondVar.html", null ],
       [ "CondVar< T >", "classCondVar.html", null ]
     ] ],
-    [ "deskflow::Config", "classdeskflow_1_1Config.html", null ],
     [ "deskflow::server::Config", "classdeskflow_1_1server_1_1Config.html", null ],
     [ "deskflow::server::ConfigReadContext", "classdeskflow_1_1server_1_1ConfigReadContext.html", null ],
     [ "IDataSocket::ConnectionFailedInfo", "classIDataSocket_1_1ConnectionFailedInfo.html", null ],
     [ "Settings::Core", "structSettings_1_1Core.html", null ],
+    [ "CoreArgParser", "classCoreArgParser.html", null ],
+    [ "CoreArgs", "structCoreArgs.html", null ],
     [ "Settings::Daemon", "structSettings_1_1Daemon.html", null ],
     [ "deskflow::KeyMap::Keystroke::Data", "uniondeskflow_1_1KeyMap_1_1Keystroke_1_1Data.html", null ],
     [ "ArchNetworkBSD::Deps", "structArchNetworkBSD_1_1Deps.html", null ],
     [ "deskflow::client::HelloBack::Deps", "structdeskflow_1_1client_1_1HelloBack_1_1Deps.html", null ],
     [ "deskflow::gui::ClientConnection::Deps", "structdeskflow_1_1gui_1_1ClientConnection_1_1Deps.html", null ],
-    [ "deskflow::gui::CoreProcess::Deps", "structdeskflow_1_1gui_1_1CoreProcess_1_1Deps.html", null ],
     [ "deskflow::gui::ServerConnection::Deps", "structdeskflow_1_1gui_1_1ServerConnection_1_1Deps.html", null ],
     [ "IPrimaryScreen::EiConnectInfo", "classIPrimaryScreen_1_1EiConnectInfo.html", null ],
     [ "XWindowsUtil::ErrorLock", "classXWindowsUtil_1_1ErrorLock.html", null ],
@@ -97,7 +89,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "Client::FailInfo", "classClient_1_1FailInfo.html", null ],
-    [ "deskflow::FinalAction< Callable >", "classdeskflow_1_1FinalAction.html", null ],
+    [ "deskflow::FinalAction&lt; Callable &gt;", "classdeskflow_1_1FinalAction.html", null ],
     [ "Fingerprint", "structFingerprint.html", null ],
     [ "FingerprintDatabase", "classFingerprintDatabase.html", null ],
     [ "FunctionEventJob", "classFunctionEventJob.html", null ],
@@ -113,9 +105,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "IArchDaemon", "classIArchDaemon.html", [
-      [ "ArchDaemonNone", "classArchDaemonNone.html", [
-        [ "ArchDaemonUnix", "classArchDaemonUnix.html", null ]
-      ] ],
+      [ "ArchDaemonNone", "classArchDaemonNone.html", null ],
       [ "ArchDaemonWindows", "classArchDaemonWindows.html", null ]
     ] ],
     [ "IArchLog", "classIArchLog.html", [
@@ -134,6 +124,7 @@ var hierarchy =
       [ "Clipboard", "classClipboard.html", null ],
       [ "MSWindowsClipboard", "classMSWindowsClipboard.html", null ],
       [ "OSXClipboard", "classOSXClipboard.html", null ],
+      [ "WlClipboard", "classWlClipboard.html", null ],
       [ "XWindowsClipboard", "classXWindowsClipboard.html", null ]
     ] ],
     [ "IEventQueue", "classIEventQueue.html", [
@@ -176,7 +167,6 @@ var hierarchy =
     [ "IMSWindowsClipboardConverter", "classIMSWindowsClipboardConverter.html", [
       [ "MSWindowsClipboardAnyTextConverter", "classMSWindowsClipboardAnyTextConverter.html", [
         [ "MSWindowsClipboardHTMLConverter", "classMSWindowsClipboardHTMLConverter.html", null ],
-        [ "MSWindowsClipboardTextConverter", "classMSWindowsClipboardTextConverter.html", null ],
         [ "MSWindowsClipboardUTF16Converter", "classMSWindowsClipboardUTF16Converter.html", null ]
       ] ],
       [ "MSWindowsClipboardBitmapConverter", "classMSWindowsClipboardBitmapConverter.html", null ]
@@ -268,13 +258,14 @@ var hierarchy =
     [ "validators::IStringValidator", "classvalidators_1_1IStringValidator.html", [
       [ "validators::ComputerNameValidator", "classvalidators_1_1ComputerNameValidator.html", null ],
       [ "validators::EmptyStringValidator", "classvalidators_1_1EmptyStringValidator.html", null ],
+      [ "validators::IpAddressValidator", "classvalidators_1_1IpAddressValidator.html", null ],
       [ "validators::ScreenDuplicationsValidator", "classvalidators_1_1ScreenDuplicationsValidator.html", null ],
       [ "validators::SpacesValidator", "classvalidators_1_1SpacesValidator.html", null ]
     ] ],
     [ "std::iterator_traits", null, [
       [ "deskflow::server::Config::const_iterator", "classdeskflow_1_1server_1_1Config_1_1const__iterator.html", null ]
     ] ],
-    [ "std::iterator_traits< deskflow::server::Config >", "structstd_1_1iterator__traits_3_01deskflow_1_1server_1_1Config_01_4.html", null ],
+    [ "std::iterator_traits&lt; deskflow::server::Config &gt;", "structstd_1_1iterator__traits_3_01deskflow_1_1server_1_1Config_01_4.html", null ],
     [ "IXWindowsClipboardConverter", "classIXWindowsClipboardConverter.html", [
       [ "XWindowsClipboardAnyBitmapConverter", "classXWindowsClipboardAnyBitmapConverter.html", null ],
       [ "XWindowsClipboardBMPConverter", "classXWindowsClipboardBMPConverter.html", null ],
@@ -318,7 +309,7 @@ var hierarchy =
     [ "IArchNetwork::PollEventMask", "structIArchNetwork_1_1PollEventMask.html", null ],
     [ "deskflow::PortalInputCapture", "classdeskflow_1_1PortalInputCapture.html", null ],
     [ "deskflow::PortalRemoteDesktop", "classdeskflow_1_1PortalRemoteDesktop.html", null ],
-    [ "PriorityQueue< T, Container, Compare >", "classPriorityQueue.html", null ],
+    [ "PriorityQueue&lt; T, Container, Compare &gt;", "classPriorityQueue.html", null ],
     [ "ProtocolUtil", "classProtocolUtil.html", null ],
     [ "QAbstractTableModel", null, [
       [ "ScreenSetupModel", "classScreenSetupModel.html", null ]
@@ -326,12 +317,14 @@ var hierarchy =
     [ "QDialog", null, [
       [ "AboutDialog", "classAboutDialog.html", null ],
       [ "ActionDialog", "classActionDialog.html", null ],
-      [ "AddClientDialog", "classAddClientDialog.html", null ],
       [ "FingerprintDialog", "classFingerprintDialog.html", null ],
       [ "HotkeyDialog", "classHotkeyDialog.html", null ],
       [ "ScreenSettingsDialog", "classScreenSettingsDialog.html", null ],
       [ "ServerConfigDialog", "classServerConfigDialog.html", null ],
       [ "SettingsDialog", "classSettingsDialog.html", null ]
+    ] ],
+    [ "QDockWidget", null, [
+      [ "LogDock", "classLogDock.html", null ]
     ] ],
     [ "QFrame", null, [
       [ "FingerprintPreview", "classFingerprintPreview.html", null ]
@@ -349,10 +342,11 @@ var hierarchy =
     [ "QObject", null, [
       [ "CommandProcess", "classCommandProcess.html", null ],
       [ "DaemonApp", "classDaemonApp.html", null ],
-      [ "DataDownloader", "classDataDownloader.html", null ],
+      [ "I18N", "classI18N.html", null ],
       [ "Settings", "classSettings.html", null ],
       [ "TlsCertificate", "classTlsCertificate.html", null ],
       [ "VersionChecker", "classVersionChecker.html", null ],
+      [ "WlClipboard", "classWlClipboard.html", null ],
       [ "deskflow::core::ipc::DaemonIpcServer", "classdeskflow_1_1core_1_1ipc_1_1DaemonIpcServer.html", null ],
       [ "deskflow::gui::ClientConnection", "classdeskflow_1_1gui_1_1ClientConnection.html", null ],
       [ "deskflow::gui::CoreProcess", "classdeskflow_1_1gui_1_1CoreProcess.html", null ],
@@ -361,7 +355,6 @@ var hierarchy =
       [ "deskflow::gui::ServerConnection", "classdeskflow_1_1gui_1_1ServerConnection.html", null ],
       [ "deskflow::gui::TlsUtility", "classdeskflow_1_1gui_1_1TlsUtility.html", null ],
       [ "deskflow::gui::ipc::DaemonIpcClient", "classdeskflow_1_1gui_1_1ipc_1_1DaemonIpcClient.html", null ],
-      [ "deskflow::gui::proxy::QProcessProxy", "classdeskflow_1_1gui_1_1proxy_1_1QProcessProxy.html", null ],
       [ "validators::ValidationError", "classvalidators_1_1ValidationError.html", null ]
     ] ],
     [ "QPushButton", null, [
@@ -376,6 +369,9 @@ var hierarchy =
         [ "validators::AliasValidator", "classvalidators_1_1AliasValidator.html", null ],
         [ "validators::ScreenNameValidator", "classvalidators_1_1ScreenNameValidator.html", null ]
       ] ]
+    ] ],
+    [ "QWidget", null, [
+      [ "LogWidget", "classLogWidget.html", null ]
     ] ],
     [ "XWindowsClipboard::Reply", "classXWindowsClipboard_1_1Reply.html", null ],
     [ "InputFilter::Rule", "classInputFilter_1_1Rule.html", null ],
@@ -447,16 +443,14 @@ var hierarchy =
         ] ],
         [ "deskflow::server::ServerConfigReadException", "classdeskflow_1_1server_1_1ServerConfigReadException.html", null ]
       ] ],
-      [ "DisplayInvalidException", "classDisplayInvalidException.html", null ],
-      [ "deskflow::Config::NoConfigFilenameError", "classdeskflow_1_1Config_1_1NoConfigFilenameError.html", null ],
-      [ "deskflow::Config::ParseError", "classdeskflow_1_1Config_1_1ParseError.html", null ]
+      [ "DisplayInvalidException", "classDisplayInvalidException.html", null ]
     ] ],
     [ "ScreenConfig", "classScreenConfig.html", [
       [ "Screen", "classScreen.html", null ],
       [ "ServerConfig", "classServerConfig.html", null ]
     ] ],
     [ "Server::ScreenConnectedInfo", "classServer_1_1ScreenConnectedInfo.html", null ],
-    [ "<ScreenSaverControl>", "protocolScreenSaverControl-p.html", [
+    [ "&lt;ScreenSaverControl&gt;", "protocolScreenSaverControl-p.html", [
       [ "ScreenSaverController", "interfaceScreenSaverController.html", null ]
     ] ],
     [ "ScrollRemainder", "structScrollRemainder.html", null ],
@@ -480,6 +474,8 @@ var hierarchy =
     [ "deskflow::gui::core::WaylandWarnings", "classdeskflow_1_1gui_1_1core_1_1WaylandWarnings.html", null ],
     [ "IPrimaryScreen::WheelInfo", "classIPrimaryScreen_1_1WheelInfo.html", null ],
     [ "Win32Modifiers", "structWin32Modifiers.html", null ],
-    [ "XWindowsPowerManager", "classXWindowsPowerManager.html", null ],
+    [ "deskflow::WlClipboardCollection", "classdeskflow_1_1WlClipboardCollection.html", null ],
+    [ "XDGKeyUtil", "classXDGKeyUtil.html", null ],
+    [ "XDGPowerManager", "classXDGPowerManager.html", null ],
     [ "XWindowsUtil", "classXWindowsUtil.html", null ]
 ];

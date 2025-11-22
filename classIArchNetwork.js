@@ -1,7 +1,7 @@
 var classIArchNetwork =
 [
-    [ "PollEntry", "classIArchNetwork_1_1PollEntry.html", "classIArchNetwork_1_1PollEntry" ],
     [ "PollEventMask", "structIArchNetwork_1_1PollEventMask.html", "structIArchNetwork_1_1PollEventMask" ],
+    [ "PollEntry", "classIArchNetwork_1_1PollEntry.html", "classIArchNetwork_1_1PollEntry" ],
     [ "AddressFamily", "classIArchNetwork.html#a8c69824f3bd9925f1e5fc7216ba0d445", [
       [ "Unknown", "classIArchNetwork.html#a8c69824f3bd9925f1e5fc7216ba0d445a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "INet", "classIArchNetwork.html#a8c69824f3bd9925f1e5fc7216ba0d445a3a9e9b275504f7b6e6753d3aaa65e703", null ],
@@ -25,7 +25,6 @@ var classIArchNetwork =
     [ "copySocket", "classIArchNetwork.html#af74b9dfde7514fb9d0ab2b851883915c", null ],
     [ "getAddrFamily", "classIArchNetwork.html#a10786dc90ecc61a386a187b00596db2a", null ],
     [ "getAddrPort", "classIArchNetwork.html#ae157916b332cd9dc008cac16509b07bc", null ],
-    [ "getHostName", "classIArchNetwork.html#ab5c268249df45d8c02f4e40ed4e42923", null ],
     [ "init", "classIArchNetwork.html#af97952e216641094d03bcf6028fe408f", null ],
     [ "isAnyAddr", "classIArchNetwork.html#a5e54a431b16755934c1ae7a7ff564d20", null ],
     [ "isEqualAddr", "classIArchNetwork.html#a64acf06d65a1042d9a0c47bf830d8546", null ],

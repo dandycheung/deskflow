@@ -1,10 +1,11 @@
 var classPlatformScreen =
 [
-    [ "PlatformScreen", "classPlatformScreen.html#abe740ec47ce4b572adcfcfb5fa07df49", null ],
+    [ "PlatformScreen", "classPlatformScreen.html#aba9e75f26033c13529997ae310eef840", null ],
     [ "~PlatformScreen", "classPlatformScreen.html#a2f288569bd4751fa8c75b08ffc237b85", null ],
     [ "activeSides", "classPlatformScreen.html#a863946bd385fdb48f4613ab1c0f34ba3", null ],
     [ "canLeave", "classPlatformScreen.html#af1f24d0dd3a6351567e323a99e94340c", null ],
     [ "checkClipboards", "classPlatformScreen.html#a452f7f61275b317208b8980c0ef3461f", null ],
+    [ "clearStaleModifiers", "classPlatformScreen.html#a29e4557d386b175f865a84afecc690c4", null ],
     [ "closeScreensaver", "classPlatformScreen.html#ac8fcc45a4546ee38e8a02c5e63e710b4", null ],
     [ "disable", "classPlatformScreen.html#a3aa9f36ef43c60659e5f8cb2e3b48f93", null ],
     [ "enable", "classPlatformScreen.html#a6c6bfb00e3b7d8ff9c4130736d3cea27", null ],
