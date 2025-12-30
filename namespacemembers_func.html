@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="deskflow-logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Deskflow<span id="projectnumber">&#160;1.24.0.525123573</span>
+   <div id="projectname">Deskflow<span id="projectnumber">&#160;1.25.0.9999</span>
    </div>
    <div id="projectbrief">Keyboard and mouse sharing utility</div>
   </td>
@@ -94,7 +94,7 @@ $(function(){initNavTree('namespacemembers_func.html','',''); });
 <div class="textblock">Here is a list of all namespace functions with links to the namespace documentation for each function:</div>
 
 <h3 class="doxsection"><a id="index_c" name="index_c"></a>- c -</h3><ul>
-<li>clear()&#160;:&#160;<a class="el" href="namespacevalidators.html#a9fffeb91b0908ece43389b7e559c9393">validators</a></li>
+<li>certFingerprint()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1TlsUtility.html#af89819b5e203344184b53851134fc1f3">deskflow::gui::TlsUtility</a></li>
 <li>clearSettings()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1diagnostic.html#a6c2840f65dad3f842913674285b842af">deskflow::gui::diagnostic</a></li>
 </ul>
 
@@ -102,7 +102,6 @@ $(function(){initNavTree('namespacemembers_func.html','',''); });
 <h3 class="doxsection"><a id="index_f" name="index_f"></a>- f -</h3><ul>
 <li>fileLine()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#ae18075df8499e361db2d41463fd3f5cc">deskflow::gui::messages</a></li>
 <li>finally()&#160;:&#160;<a class="el" href="namespacedeskflow.html#ade08d401408bb88f3f10cfbaec22668b">deskflow</a></li>
-<li>fopenUtf8Path()&#160;:&#160;<a class="el" href="namespacedeskflow.html#a108d2978bd73d96786e7e28c9960c501">deskflow</a></li>
 <li>format()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1string.html#a3ff26b112bf6d8074716bc48ffa1759e">deskflow::string</a></li>
 <li>formatSSLFingerprint()&#160;:&#160;<a class="el" href="namespacedeskflow.html#a421442748c7922d0c2154f6a2980b772">deskflow</a></li>
 <li>formatSSLFingerprintColumns()&#160;:&#160;<a class="el" href="namespacedeskflow.html#ad861c9ab209c83520015ecd34ea46d02">deskflow</a></li>
@@ -110,15 +109,18 @@ $(function(){initNavTree('namespacemembers_func.html','',''); });
 
 
 <h3 class="doxsection"><a id="index_g" name="index_g"></a>- g -</h3><ul>
+<li>generateCertificate()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1TlsUtility.html#a63117db72e713097624c35d8458e462c">deskflow::gui::TlsUtility</a></li>
 <li>generateFingerprintArt()&#160;:&#160;<a class="el" href="namespacedeskflow.html#ae59df1508908bc129534f32f6865d6f0">deskflow</a></li>
-<li>generatePemSelfSignedCert()&#160;:&#160;<a class="el" href="namespacedeskflow.html#ad922daf8219186d3fa5db7d89278a5ae">deskflow</a></li>
-<li>getCertLength()&#160;:&#160;<a class="el" href="namespacedeskflow.html#a58136b80db0f779f11a128bc425b6411">deskflow</a></li>
+<li>generatePemSelfSignedCert()&#160;:&#160;<a class="el" href="namespacedeskflow.html#a99a22f603681c19d78cf0cceb1b9d11b">deskflow</a></li>
+<li>getCertKeyLength()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1TlsUtility.html#ab7fff2c05ebaf5e0aeb48519a9e9e5c6">deskflow::gui::TlsUtility</a></li>
 </ul>
 
 
 <h3 class="doxsection"><a id="index_i" name="index_i"></a>- i -</h3><ul>
 <li>iconMode()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui.html#a6c3353d5cbfbd26b2acd734e71d61b12">deskflow::gui</a></li>
+<li>isCertValid()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1TlsUtility.html#a1768f15e74168a3e5b621f2981ba5029">deskflow::gui::TlsUtility</a></li>
 <li>isDarkMode()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui.html#aafd8747004a0dc462453e60e4602a918">deskflow::gui</a></li>
+<li>isEnabled()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1TlsUtility.html#aedd7ad3bb197354baeb738cef4b467a5">deskflow::gui::TlsUtility</a></li>
 <li>isFlatpak()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1platform.html#ae8bad1da1154bae1eac87184d3e13eeb">deskflow::platform</a></li>
 <li>isMac()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1platform.html#ade70aeb9d77e1781c854a34008a428ed">deskflow::platform</a></li>
 <li>isSandboxed()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1platform.html#a0fd9248045d0ead223bf07e1fbcaae19">deskflow::platform</a></li>
@@ -134,15 +136,12 @@ $(function(){initNavTree('namespacemembers_func.html','',''); });
 
 
 <h3 class="doxsection"><a id="index_o" name="index_o"></a>- o -</h3><ul>
-<li>openUtf8Path()&#160;:&#160;<a class="el" href="namespacedeskflow.html#a11eb20b6da710465dee0dc54ca1de21e">deskflow</a></li>
 <li>operator&lt;&lt;()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1server.html#a0386497f2a0ceae5d8f0895f172cd49d">deskflow::server</a></li>
 <li>operator&gt;&gt;()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1server.html#a22056a718b59607a46ff33f10f1d6f6d">deskflow::server</a></li>
 </ul>
 
 
 <h3 class="doxsection"><a id="index_p" name="index_p"></a>- p -</h3><ul>
-<li>path()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1filesystem.html#a10409508645291342692b373ebfcd2df">deskflow::filesystem</a></li>
-<li>pemFileCertFingerprint()&#160;:&#160;<a class="el" href="namespacedeskflow.html#a69cae3765d48b99aee4eec1c13cb88f9">deskflow</a></li>
 <li>printLine()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui.html#a302e57e11bdb1ecd18afd06b9180ee7e">deskflow::gui</a></li>
 </ul>
 
@@ -156,20 +155,18 @@ $(function(){initNavTree('namespacemembers_func.html','',''); });
 <h3 class="doxsection"><a id="index_s" name="index_s"></a>- s -</h3><ul>
 <li>setAppId()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1platform.html#a64afaecdaaca4e078c86ef30093d746e">deskflow::platform</a></li>
 <li>showClearSettings()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#a3cef3788e3fae6bc7ebb84ef4969bca3">deskflow::gui::messages</a></li>
-<li>showClientConnectError()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#ad4cbc0e0370327c6dd94d778cdcf6389">deskflow::gui::messages</a></li>
+<li>showClientConnectError()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#a10809d0fc10a0db8c68b2b644479bfe1">deskflow::gui::messages</a></li>
 <li>showCloseReminder()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#aefd2a689c47cf3fefb5d844fd8ed327f">deskflow::gui::messages</a></li>
 <li>showDaemonOffline()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#a60dc73cee3be7ef255a925127c1fa2b6">deskflow::gui::messages</a></li>
 <li>showErrorDialog()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#ae637f1327216dc1e3eb1401c84deb40c">deskflow::gui::messages</a></li>
 <li>showFirstConnectedMessage()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#aedad0d21c313ee2a3e62076024608d56">deskflow::gui::messages</a></li>
 <li>showFirstServerStartMessage()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#ae36c4e343b7e48e06e2a9005a5bf4eda">deskflow::gui::messages</a></li>
-<li>showNewClientPrompt()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#a114b53ec2ee554f8fa21468dbdce6f71">deskflow::gui::messages</a></li>
+<li>showNewClientPrompt()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#a886ff5d104d6bbbf78d97902a184c477">deskflow::gui::messages</a></li>
 <li>showReadOnlySettings()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#a3ee57c3c76be1f5eb084883f65fbf93e">deskflow::gui::messages</a></li>
 <li>showUpdateCheckOption()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#ae073516dca7103f8d26cd3b7c5e69a13">deskflow::gui::messages</a></li>
 <li>showWaylandLibraryError()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1gui_1_1messages.html#a34e786cc3b79a0ecc6fd3384d7d92f40">deskflow::gui::messages</a></li>
-<li>sizeTypeToString()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1string.html#a47b7feb15d0cd395cd84a796f58e22ea">deskflow::string</a></li>
 <li>sprintf()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1string.html#aaf08864e3398b76761c6626b623b9a27">deskflow::string</a></li>
-<li>sslCertFingerprint()&#160;:&#160;<a class="el" href="namespacedeskflow.html#a280351dc32d6086d1edbbb0728d020e4">deskflow</a></li>
-<li>stringToSizeType()&#160;:&#160;<a class="el" href="namespacedeskflow_1_1string.html#a0e38cb7eb75c35e31e0f4fbbb6ce39c6">deskflow::string</a></li>
+<li>sslCertFingerprint()&#160;:&#160;<a class="el" href="namespacedeskflow.html#a6cb2aaf99f20b081d331c8e1df016dca">deskflow</a></li>
 </ul>
 
 

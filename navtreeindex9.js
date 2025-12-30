@@ -1,15 +1,12 @@
 var NAVTREEINDEX9 =
 {
-"classHotkeyDialog.html#ae95ebac862e1337db4a8634206793557":[6,0,98,1],
-"classHotkeyDialog.html#af7bfd1146080aa63ea6190a93065543a":[6,0,98,5],
-"classI18N.html":[6,0,99],
-"classI18N.html#a6e63f67b2679596d86edf5aab17c5162":[6,0,99,6],
+"classI18N.html#a6e63f67b2679596d86edf5aab17c5162":[6,0,99,7],
 "classI18N.html#a7e771f002458ea1dc1d09146348bfbe7":[6,0,99,0],
-"classI18N.html#a85d2215cabeb121773139c490d932ef1":[6,0,99,4],
+"classI18N.html#a85d2215cabeb121773139c490d932ef1":[6,0,99,3],
+"classI18N.html#aad210a6082eb2fb277ab3548c4f49b8d":[6,0,99,5],
 "classI18N.html#aad8e50cfa0c2d9c68b64985624827a83":[6,0,99,2],
-"classI18N.html#abf9a2b15f106b9eab0b92834d43fc32e":[6,0,99,3],
 "classI18N.html#ac13c797c0d292af2a4bd4bfa97394d0f":[6,0,99,1],
-"classI18N.html#afdfcb9157525f42eef4e947eadd6c217":[6,0,99,5],
+"classI18N.html#afdfcb9157525f42eef4e947eadd6c217":[6,0,99,6],
 "classIApp.html":[6,0,100],
 "classIApp.html#a008018d8408f75fbf1f4e1825287011a":[6,0,100,6],
 "classIApp.html#a165504789fa07702277cb59a237c928c":[6,0,100,3],
@@ -249,5 +246,8 @@ var NAVTREEINDEX9 =
 "classIOSXClipboardConverter.html#a040be5d29b7a271ee128dfdbe35b5ca1":[6,0,123,3],
 "classIOSXClipboardConverter.html#a4adc3b10a0bf35530b80ab1fdd286206":[6,0,123,2],
 "classIOSXClipboardConverter.html#a5cacc689ad2be9a984557d15e123df14":[6,0,123,4],
-"classIOSXClipboardConverter.html#abab1bc86237e2025440afba738b6b2f3":[6,0,123,1]
+"classIOSXClipboardConverter.html#abab1bc86237e2025440afba738b6b2f3":[6,0,123,1],
+"classIOSXClipboardConverter.html#adb8ed8667a27752184d5a1125a209cb2":[6,0,123,0],
+"classIOSXKeyResource.html":[6,0,124],
+"classIOSXKeyResource.html#a2098d8a56e0e37a377ad07cb1f02f259":[6,0,124,5]
 };

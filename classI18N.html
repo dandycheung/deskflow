@@ -28,7 +28,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="deskflow-logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Deskflow<span id="projectnumber">&#160;1.24.0.525123573</span>
+   <div id="projectname">Deskflow<span id="projectnumber">&#160;1.25.0.9999</span>
    </div>
    <div id="projectbrief">Keyboard and mouse sharing utility</div>
   </td>
@@ -124,14 +124,18 @@ Collaboration diagram for I18N:</div>
 Signals</h2></td></tr>
 <tr class="memitem:a85d2215cabeb121773139c490d932ef1" id="r_a85d2215cabeb121773139c490d932ef1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85d2215cabeb121773139c490d932ef1">languageChanged</a> (const QString language)</td></tr>
 <tr class="memdesc:a85d2215cabeb121773139c490d932ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">languageChanged Emitted when the current language changes  <br /></td></tr>
-<tr class="memitem:abf9a2b15f106b9eab0b92834d43fc32e" id="r_abf9a2b15f106b9eab0b92834d43fc32e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf9a2b15f106b9eab0b92834d43fc32e">langaugesChanged</a> (const QStringList languages)</td></tr>
-<tr class="memdesc:abf9a2b15f106b9eab0b92834d43fc32e"><td class="mdescLeft">&#160;</td><td class="mdescRight">langaugesChanged Emitted when the detected languages changes  <br /></td></tr>
+<tr class="memitem:a557f04dec8c74bc065cc1a19966e3016" id="r_a557f04dec8c74bc065cc1a19966e3016"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557f04dec8c74bc065cc1a19966e3016">languagesChanged</a> (const QStringList languages)</td></tr>
+<tr class="memdesc:a557f04dec8c74bc065cc1a19966e3016"><td class="mdescLeft">&#160;</td><td class="mdescRight">languagesChanged Emitted when the detected languages changes  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aad8e50cfa0c2d9c68b64985624827a83" id="r_aad8e50cfa0c2d9c68b64985624827a83"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classI18N.html">I18N</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad8e50cfa0c2d9c68b64985624827a83">instance</a> ()</td></tr>
 <tr class="memitem:ac13c797c0d292af2a4bd4bfa97394d0f" id="r_ac13c797c0d292af2a4bd4bfa97394d0f"><td class="memItemLeft" align="right" valign="top">static QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac13c797c0d292af2a4bd4bfa97394d0f">detectedLanguages</a> ()</td></tr>
 <tr class="memdesc:ac13c797c0d292af2a4bd4bfa97394d0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">detectedLanguages  <br /></td></tr>
+<tr class="memitem:aad210a6082eb2fb277ab3548c4f49b8d" id="r_aad210a6082eb2fb277ab3548c4f49b8d"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad210a6082eb2fb277ab3548c4f49b8d">nativeTo639Name</a> (QString nativeName)</td></tr>
+<tr class="memdesc:aad210a6082eb2fb277ab3548c4f49b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">nativeTo639Name Convert a native Language name into a 639 name  <br /></td></tr>
+<tr class="memitem:a60703e3fda940b7865157467092eb663" id="r_a60703e3fda940b7865157467092eb663"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60703e3fda940b7865157467092eb663">toNativeName</a> (QString shortName)</td></tr>
+<tr class="memdesc:a60703e3fda940b7865157467092eb663"><td class="mdescLeft">&#160;</td><td class="mdescRight">toNativeName Convert a 639 Name into a Native Language string  <br /></td></tr>
 <tr class="memitem:a7e771f002458ea1dc1d09146348bfbe7" id="r_a7e771f002458ea1dc1d09146348bfbe7"><td class="memItemLeft" align="right" valign="top">static QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e771f002458ea1dc1d09146348bfbe7">currentLanguage</a> ()</td></tr>
 <tr class="memdesc:a7e771f002458ea1dc1d09146348bfbe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">currentLanguage  <br /></td></tr>
 <tr class="memitem:a6e63f67b2679596d86edf5aab17c5162" id="r_a6e63f67b2679596d86edf5aab17c5162"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e63f67b2679596d86edf5aab17c5162">setLanguage</a> (const QString &amp;langName)</td></tr>
@@ -166,7 +170,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>currentLanguage </p>
-<dl class="section return"><dt>Returns</dt><dd>The current language string (native name: English, Español etc..) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The current language string (639-1 names i.e en, es) </dd></dl>
 
 </div>
 </div>
@@ -223,39 +227,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abf9a2b15f106b9eab0b92834d43fc32e" name="abf9a2b15f106b9eab0b92834d43fc32e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf9a2b15f106b9eab0b92834d43fc32e">&#9670;&#160;</a></span>langaugesChanged</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void I18N::langaugesChanged </td>
-          <td>(</td>
-          <td class="paramtype">const QStringList</td>          <td class="paramname"><span class="paramname"><em>languages</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>langaugesChanged Emitted when the detected languages changes </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">languages</td><td>The current list of languages (native names i.e English, Español..) </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="a85d2215cabeb121773139c490d932ef1" name="a85d2215cabeb121773139c490d932ef1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a85d2215cabeb121773139c490d932ef1">&#9670;&#160;</a></span>languageChanged</h2>
 
@@ -282,10 +253,77 @@ Static Public Member Functions</h2></td></tr>
 <p>languageChanged Emitted when the current language changes </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">language</td><td>The current language (native name, i.e English, Español) </td></tr>
+    <tr><td class="paramname">language</td><td>The current language (639-1 names i.e en, es) </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a557f04dec8c74bc065cc1a19966e3016" name="a557f04dec8c74bc065cc1a19966e3016"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a557f04dec8c74bc065cc1a19966e3016">&#9670;&#160;</a></span>languagesChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void I18N::languagesChanged </td>
+          <td>(</td>
+          <td class="paramtype">const QStringList</td>          <td class="paramname"><span class="paramname"><em>languages</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel signal">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>languagesChanged Emitted when the detected languages changes </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">languages</td><td>The current list of languages (639-1 names i.e en, es) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aad210a6082eb2fb277ab3548c4f49b8d" name="aad210a6082eb2fb277ab3548c4f49b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad210a6082eb2fb277ab3548c4f49b8d">&#9670;&#160;</a></span>nativeTo639Name()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString I18N::nativeTo639Name </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>nativeName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>nativeTo639Name Convert a native Language name into a 639 name </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nativeName</td><td>English, Español etc.. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>639 name for the language e, zh_CN , it, etc..) </dd></dl>
 
 </div>
 </div>
@@ -346,6 +384,40 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a60703e3fda940b7865157467092eb663" name="a60703e3fda940b7865157467092eb663"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60703e3fda940b7865157467092eb663">&#9670;&#160;</a></span>toNativeName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString I18N::toNativeName </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>shortName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>toNativeName Convert a 639 Name into a Native Language string </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shortName</td><td>A 639 name en, es etc... </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>native language string for the language </dd></dl>
 
 </div>
 </div>

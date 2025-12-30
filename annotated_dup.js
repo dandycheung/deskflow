@@ -31,11 +31,11 @@ var annotated_dup =
         [ "IServerConfig", "classdeskflow_1_1gui_1_1IServerConfig.html", "classdeskflow_1_1gui_1_1IServerConfig" ],
         [ "ClientConnection", "classdeskflow_1_1gui_1_1ClientConnection.html", "classdeskflow_1_1gui_1_1ClientConnection" ],
         [ "CoreProcess", "classdeskflow_1_1gui_1_1CoreProcess.html", "classdeskflow_1_1gui_1_1CoreProcess" ],
+        [ "NetworkMonitor", "classdeskflow_1_1gui_1_1NetworkMonitor.html", "classdeskflow_1_1gui_1_1NetworkMonitor" ],
         [ "ServerConnection", "classdeskflow_1_1gui_1_1ServerConnection.html", "classdeskflow_1_1gui_1_1ServerConnection" ],
         [ "ServerMessage", "classdeskflow_1_1gui_1_1ServerMessage.html", "classdeskflow_1_1gui_1_1ServerMessage" ],
         [ "FileTail", "classdeskflow_1_1gui_1_1FileTail.html", "classdeskflow_1_1gui_1_1FileTail" ],
-        [ "Logger", "classdeskflow_1_1gui_1_1Logger.html", "classdeskflow_1_1gui_1_1Logger" ],
-        [ "TlsUtility", "classdeskflow_1_1gui_1_1TlsUtility.html", "classdeskflow_1_1gui_1_1TlsUtility" ]
+        [ "Logger", "classdeskflow_1_1gui_1_1Logger.html", "classdeskflow_1_1gui_1_1Logger" ]
       ] ],
       [ "server", "namespacedeskflow_1_1server.html", [
         [ "Config", "classdeskflow_1_1server_1_1Config.html", "classdeskflow_1_1server_1_1Config" ],
@@ -300,7 +300,6 @@ var annotated_dup =
     [ "ThreadCancelException", "classThreadCancelException.html", null ],
     [ "ThreadException", "classThreadException.html", null ],
     [ "ThreadExitException", "classThreadExitException.html", "classThreadExitException" ],
-    [ "TlsCertificate", "classTlsCertificate.html", "classTlsCertificate" ],
     [ "TMethodJob", "classTMethodJob.html", "classTMethodJob" ],
     [ "TrashScreenWidget", "classTrashScreenWidget.html", "classTrashScreenWidget" ],
     [ "TSocketMultiplexerMethodJob", "classTSocketMultiplexerMethodJob.html", "classTSocketMultiplexerMethodJob" ],

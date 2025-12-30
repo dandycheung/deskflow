@@ -1,8 +1,5 @@
 var namespacedeskflow =
 [
-    [ "filesystem", "namespacedeskflow_1_1filesystem.html", [
-      [ "path", "namespacedeskflow_1_1filesystem.html#a10409508645291342692b373ebfcd2df", null ]
-    ] ],
     [ "string", "namespacedeskflow_1_1string.html", "namespacedeskflow_1_1string" ],
     [ "client", "namespacedeskflow_1_1client.html", "namespacedeskflow_1_1client" ],
     [ "platform", "namespacedeskflow_1_1platform.html", "namespacedeskflow_1_1platform" ],
@@ -83,15 +80,9 @@ var namespacedeskflow =
       [ "EISessionClosed", "namespacedeskflow.html#a34787a880fd439e02383f336665d7bc2a4c2d64df525190d29b1023bcb7d4da2b", null ]
     ] ],
     [ "finally", "namespacedeskflow.html#ade08d401408bb88f3f10cfbaec22668b", null ],
-    [ "fopenUtf8Path", "namespacedeskflow.html#a108d2978bd73d96786e7e28c9960c501", null ],
     [ "formatSSLFingerprint", "namespacedeskflow.html#a421442748c7922d0c2154f6a2980b772", null ],
     [ "formatSSLFingerprintColumns", "namespacedeskflow.html#ad861c9ab209c83520015ecd34ea46d02", null ],
     [ "generateFingerprintArt", "namespacedeskflow.html#ae59df1508908bc129534f32f6865d6f0", null ],
-    [ "generatePemSelfSignedCert", "namespacedeskflow.html#ad922daf8219186d3fa5db7d89278a5ae", null ],
-    [ "getCertLength", "namespacedeskflow.html#a58136b80db0f779f11a128bc425b6411", null ],
-    [ "openUtf8Path", "namespacedeskflow.html#a32533323f904a907d8019efebdd38d8c", null ],
-    [ "openUtf8Path", "namespacedeskflow.html#a11eb20b6da710465dee0dc54ca1de21e", null ],
-    [ "openUtf8Path", "namespacedeskflow.html#a3a219a6bded7406cae1e0bae109bd78c", null ],
-    [ "pemFileCertFingerprint", "namespacedeskflow.html#a69cae3765d48b99aee4eec1c13cb88f9", null ],
-    [ "sslCertFingerprint", "namespacedeskflow.html#a280351dc32d6086d1edbbb0728d020e4", null ]
+    [ "generatePemSelfSignedCert", "namespacedeskflow.html#a99a22f603681c19d78cf0cceb1b9d11b", null ],
+    [ "sslCertFingerprint", "namespacedeskflow.html#a6cb2aaf99f20b081d331c8e1df016dca", null ]
 ];
