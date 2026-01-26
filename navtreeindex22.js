@@ -1,7 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"namespacedeskflow.html#a34787a880fd439e02383f336665d7bc2a911ba363fd1483b5b36fda7b0149cf76":[5,0,0,18,25],
-"namespacedeskflow.html#a34787a880fd439e02383f336665d7bc2a98f1b4fe2c8af605faaa5ce9f5c589db":[5,0,0,18,55],
 "namespacedeskflow.html#a34787a880fd439e02383f336665d7bc2a9b3e510654adce623b3c8c2149dacba7":[5,0,0,18,7],
 "namespacedeskflow.html#a34787a880fd439e02383f336665d7bc2aa3a542765a6211cbe16fdf6722655963":[5,0,0,18,47],
 "namespacedeskflow.html#a34787a880fd439e02383f336665d7bc2aa45da96d0bf6575970f2d27af22be28a":[5,0,0,18,2],
@@ -35,11 +33,11 @@ var NAVTREEINDEX22 =
 "namespacedeskflow.html#ade08d401408bb88f3f10cfbaec22668b":[5,0,0,19],
 "namespacedeskflow.html#ae59df1508908bc129534f32f6865d6f0":[5,0,0,22],
 "namespacedeskflow_1_1client.html":[5,0,0,2],
-"namespacedeskflow_1_1client.html#aa4ce66800aaa4ff88fb0a1106e568210":[5,0,0,2,1],
-"namespacedeskflow_1_1client.html#aa4ce66800aaa4ff88fb0a1106e568210a026d4490386eaf538cd104d5b3cb5b34":[5,0,0,2,1,1],
-"namespacedeskflow_1_1client.html#aa4ce66800aaa4ff88fb0a1106e568210a4799233e783a39e6b720d33fb45a33d7":[5,0,0,2,1,2],
-"namespacedeskflow_1_1client.html#aa4ce66800aaa4ff88fb0a1106e568210a70a47cae4eb221930f2663fd244369ea":[5,0,0,2,1,0],
-"namespacedeskflow_1_1client.html#aa4ce66800aaa4ff88fb0a1106e568210ab8f3ed63a76e8f1710dfd83958de1789":[5,0,0,2,1,3],
+"namespacedeskflow_1_1client.html#aa4ce66800aaa4ff88fb0a1106e568210":[5,0,0,2,0],
+"namespacedeskflow_1_1client.html#aa4ce66800aaa4ff88fb0a1106e568210a026d4490386eaf538cd104d5b3cb5b34":[5,0,0,2,0,1],
+"namespacedeskflow_1_1client.html#aa4ce66800aaa4ff88fb0a1106e568210a4799233e783a39e6b720d33fb45a33d7":[5,0,0,2,0,2],
+"namespacedeskflow_1_1client.html#aa4ce66800aaa4ff88fb0a1106e568210a70a47cae4eb221930f2663fd244369ea":[5,0,0,2,0,0],
+"namespacedeskflow_1_1client.html#aa4ce66800aaa4ff88fb0a1106e568210ab8f3ed63a76e8f1710dfd83958de1789":[5,0,0,2,0,3],
 "namespacedeskflow_1_1core.html":[5,0,0,0],
 "namespacedeskflow_1_1core_1_1ipc.html":[5,0,0,0,0],
 "namespacedeskflow_1_1core_1_1ipc.html#a47661d2268bc0b0cdc1b7dab2ed46619":[5,0,0,0,0,2],
@@ -93,8 +91,6 @@ var NAVTREEINDEX22 =
 "namespacedeskflow_1_1server.html":[5,0,0,6],
 "namespacedeskflow_1_1server.html#a0386497f2a0ceae5d8f0895f172cd49d":[5,0,0,6,3],
 "namespacedeskflow_1_1server.html#a22056a718b59607a46ff33f10f1d6f6d":[5,0,0,6,4],
-"namespacedeskflow_1_1server.html#a5a51f32b98ec97b342b09ecc21e6dfa3":[5,0,0,6,5],
-"namespacedeskflow_1_1server.html#a5f7702a511027bc6ea306740cbb99d7c":[5,0,0,6,6],
 "namespacedeskflow_1_1string.html":[5,0,0,1],
 "namespacedeskflow_1_1string.html#a38d8f9480b99abd72865fddeafc2c5cf":[5,0,0,1,3],
 "namespacedeskflow_1_1string.html#a3ff26b112bf6d8074716bc48ffa1759e":[5,0,0,1,1],
@@ -249,5 +245,9 @@ var NAVTREEINDEX22 =
 "structSettings_1_1Core.html#a22d636fbd1f06380f33e96831563a53b":[6,0,207,1,4],
 "structSettings_1_1Core.html#a2a0059d3e150af140d0c1760df2dffab":[6,0,207,1,1],
 "structSettings_1_1Core.html#a2a47e74b26eeb5e3f444a96c497860ab":[6,0,207,1,2],
-"structSettings_1_1Core.html#a2cbb9afa6b91c1199c6c63ae56712d99":[6,0,207,1,6]
+"structSettings_1_1Core.html#a2cbb9afa6b91c1199c6c63ae56712d99":[6,0,207,1,6],
+"structSettings_1_1Core.html#a3bae5d04175c1df90108e75add4b9d54":[6,0,207,1,9],
+"structSettings_1_1Core.html#a438f42902d3451ced0dfd1ff83bb0d9a":[6,0,207,1,3],
+"structSettings_1_1Core.html#a4b34ca6a00d57ae4cdf2df6d3a695446":[6,0,207,1,0],
+"structSettings_1_1Core.html#a5a1f75f35b5d101defd4395ee63d336d":[6,0,207,1,5]
 };
