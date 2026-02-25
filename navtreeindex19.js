@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"classdeskflow_1_1gui_1_1CoreProcess.html#ada98633f251627e02fa40042399bc49b":[5,0,0,5,7,5],
 "classdeskflow_1_1gui_1_1CoreProcess.html#ada98633f251627e02fa40042399bc49b":[6,0,0,4,5,5],
 "classdeskflow_1_1gui_1_1CoreProcess.html#adab780bcb932ba53c90fc6f6b1f25467":[5,0,0,5,7,0],
 "classdeskflow_1_1gui_1_1CoreProcess.html#adab780bcb932ba53c90fc6f6b1f25467":[6,0,0,4,5,0],
@@ -53,10 +54,10 @@ var NAVTREEINDEX19 =
 "classdeskflow_1_1gui_1_1NetworkMonitor.html#a60e7fd9af440e7b9d6f5563c9c82e9d6":[6,0,0,4,6,5],
 "classdeskflow_1_1gui_1_1NetworkMonitor.html#a6385ceb106fbe5394c55cd2336adc216":[5,0,0,5,8,4],
 "classdeskflow_1_1gui_1_1NetworkMonitor.html#a6385ceb106fbe5394c55cd2336adc216":[6,0,0,4,6,4],
+"classdeskflow_1_1gui_1_1NetworkMonitor.html#a88c5f87de3770d34879988b2378fdc0c":[5,0,0,5,8,6],
+"classdeskflow_1_1gui_1_1NetworkMonitor.html#a88c5f87de3770d34879988b2378fdc0c":[6,0,0,4,6,6],
 "classdeskflow_1_1gui_1_1NetworkMonitor.html#a9124f9fbc3fff0faa038c281688dd57a":[5,0,0,5,8,0],
 "classdeskflow_1_1gui_1_1NetworkMonitor.html#a9124f9fbc3fff0faa038c281688dd57a":[6,0,0,4,6,0],
-"classdeskflow_1_1gui_1_1NetworkMonitor.html#abb5187f5ef66fe041d9e479cc0b91b6d":[5,0,0,5,8,6],
-"classdeskflow_1_1gui_1_1NetworkMonitor.html#abb5187f5ef66fe041d9e479cc0b91b6d":[6,0,0,4,6,6],
 "classdeskflow_1_1gui_1_1NetworkMonitor.html#ad4663600ff5a3e9f822cb2345043d052":[5,0,0,5,8,2],
 "classdeskflow_1_1gui_1_1NetworkMonitor.html#ad4663600ff5a3e9f822cb2345043d052":[6,0,0,4,6,2],
 "classdeskflow_1_1gui_1_1ServerConnection.html":[5,0,0,5,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "classdeskflow_1_1server_1_1Config.html#af409de3b8d399c0869787e1f73093e17":[5,0,0,6,0,23],
 "classdeskflow_1_1server_1_1Config.html#af409de3b8d399c0869787e1f73093e17":[6,0,0,5,0,23],
 "classdeskflow_1_1server_1_1Config.html#af9e192946df0b469b826fec417cb2dfe":[5,0,0,6,0,33],
-"classdeskflow_1_1server_1_1Config.html#af9e192946df0b469b826fec417cb2dfe":[6,0,0,5,0,33],
-"classdeskflow_1_1server_1_1Config.html#afaeac95072fceeeff1b2b0e327234ebe":[5,0,0,6,0,46]
+"classdeskflow_1_1server_1_1Config.html#af9e192946df0b469b826fec417cb2dfe":[6,0,0,5,0,33]
 };
