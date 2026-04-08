@@ -1,6 +1,6 @@
-<map id="src/lib/deskflow/languages/LanguageManager.cpp" name="src/lib/deskflow/languages/LanguageManager.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="519,5,694,44"/>
-<area shape="rect" id="Node000002" href="$LanguageManager_8h.html" title=" " alt="" coords="374,92,512,117"/>
+<map id="src/lib/deskflow/KeyboardLayoutManager.cpp" name="src/lib/deskflow/KeyboardLayoutManager.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="522,5,692,44"/>
+<area shape="rect" id="Node000002" href="$KeyboardLayoutManager_8h.html" title=" " alt="" coords="356,92,530,117"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="565,46,482,87,480,83,569,43"/>
 <area shape="rect" id="Node000010" href="$Log_8h.html" title=" " alt="" coords="564,92,650,117"/>
 <area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="608,42,609,77,604,75,605,47"/>
