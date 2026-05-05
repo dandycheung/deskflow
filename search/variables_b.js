@@ -91,7 +91,7 @@ var searchData=
   ['m_5fw_88',['m_w',['../classClientInfo.html#a0bdb7cd63cd2d0a81d2773e7ed585cbb',1,'ClientInfo']]],
   ['m_5fwaitcount_89',['m_waitCount',['../classArchCondImpl.html#ac2dc0056e983aa7d8bf74490e39d45e5',1,'ArchCondImpl']]],
   ['m_5fwaitcountmutex_90',['m_waitCountMutex',['../classArchCondImpl.html#ab1e809406160065fc6872e5826d8510b',1,'ArchCondImpl']]],
-  ['m_5fwhat_91',['m_what',['../classClient_1_1FailInfo.html#a0289000a070fd90f120a687e4536f648',1,'Client::FailInfo::m_what'],['../classIDataSocket_1_1ConnectionFailedInfo.html#a97a4e4a8de386d0fdb168fc9149a81ba',1,'IDataSocket::ConnectionFailedInfo::m_what']]],
+  ['m_5fwhat_91',['m_what',['../classClient_1_1FailInfo.html#ac447402ac355d381da2f2d426e2a058d',1,'Client::FailInfo::m_what'],['../classIDataSocket_1_1ConnectionFailedInfo.html#a97a4e4a8de386d0fdb168fc9149a81ba',1,'IDataSocket::ConnectionFailedInfo::m_what']]],
   ['m_5fx_92',['m_x',['../classIPrimaryScreen_1_1MotionInfo.html#a4f70af34c1336bbc6f0245d736e2dcf4',1,'IPrimaryScreen::MotionInfo::m_x'],['../classClientInfo.html#ae1d4cb9fc516223cba323196199683b8',1,'ClientInfo::m_x']]],
   ['m_5fxdelta_93',['m_xDelta',['../classIPrimaryScreen_1_1WheelInfo.html#aeff4f0afab125a1b278f56c16fa61a67',1,'IPrimaryScreen::WheelInfo']]],
   ['m_5fy_94',['m_y',['../classIPrimaryScreen_1_1MotionInfo.html#a34dee95f96a772b553a305d0c68bc0ca',1,'IPrimaryScreen::MotionInfo::m_y'],['../classClientInfo.html#a3f23857bfa3b5fd8b335d56613ea564a',1,'ClientInfo::m_y']]],

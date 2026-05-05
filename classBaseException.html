@@ -177,19 +177,19 @@ Collaboration diagram for BaseException:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a675e42df7cdd795575bccf521f8ff930" id="r_a675e42df7cdd795575bccf521f8ff930"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a675e42df7cdd795575bccf521f8ff930">BaseException</a> ()</td></tr>
-<tr class="memdesc:a675e42df7cdd795575bccf521f8ff930"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use <a class="el" href="#a76fe9d7f9de83d364c8e60086dd90837" title="Get a human readable string describing the exception.">getWhat()</a> as the result of <a class="el" href="#a80f176f93db9f0669bd14c4bf440d5d5" title="Reason for exception.">what()</a>.  <br /></td></tr>
-<tr class="memitem:a9f0f973331bc9c475b6ef2092daa9643" id="r_a9f0f973331bc9c475b6ef2092daa9643"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a9f0f973331bc9c475b6ef2092daa9643">BaseException</a> (const std::string &amp;msg)</td></tr>
-<tr class="memdesc:a9f0f973331bc9c475b6ef2092daa9643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use <code>msg</code> as the result of <a class="el" href="#a80f176f93db9f0669bd14c4bf440d5d5" title="Reason for exception.">what()</a>.  <br /></td></tr>
+<tr class="memdesc:a675e42df7cdd795575bccf521f8ff930"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use <a class="el" href="#a25280f6f9ecc92868d2e1c725c932bec" title="Get a human readable string describing the exception.">getWhat()</a> as the result of <a class="el" href="#a80f176f93db9f0669bd14c4bf440d5d5" title="Reason for exception.">what()</a>.  <br /></td></tr>
+<tr class="memitem:ad08998a5208199140d7f2045b95dfd9e" id="r_ad08998a5208199140d7f2045b95dfd9e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad08998a5208199140d7f2045b95dfd9e">BaseException</a> (const QString &amp;msg)</td></tr>
+<tr class="memdesc:ad08998a5208199140d7f2045b95dfd9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use <code>msg</code> as the result of <a class="el" href="#a80f176f93db9f0669bd14c4bf440d5d5" title="Reason for exception.">what()</a>.  <br /></td></tr>
 <tr class="memitem:a949e06cad0f2fd775834c7341562efb6" id="r_a949e06cad0f2fd775834c7341562efb6"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a949e06cad0f2fd775834c7341562efb6">~BaseException</a> () override  throw () =default</td></tr>
 <tr class="memitem:a80f176f93db9f0669bd14c4bf440d5d5" id="r_a80f176f93db9f0669bd14c4bf440d5d5"><td class="memItemLeft">const char *&#160;</td><td class="memItemRight"><a class="el" href="#a80f176f93db9f0669bd14c4bf440d5d5">what</a> () const override  throw ()</td></tr>
 <tr class="memdesc:a80f176f93db9f0669bd14c4bf440d5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reason for exception.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a76fe9d7f9de83d364c8e60086dd90837" id="r_a76fe9d7f9de83d364c8e60086dd90837"><td class="memItemLeft">virtual std::string&#160;</td><td class="memItemRight"><a class="el" href="#a76fe9d7f9de83d364c8e60086dd90837">getWhat</a> () const noexcept</td></tr>
-<tr class="memdesc:a76fe9d7f9de83d364c8e60086dd90837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a human readable string describing the exception.  <br /></td></tr>
-<tr class="memitem:a155e1fd5b92bd2eadd71369cafdd0d48" id="r_a155e1fd5b92bd2eadd71369cafdd0d48"><td class="memItemLeft">virtual std::string&#160;</td><td class="memItemRight"><a class="el" href="#a155e1fd5b92bd2eadd71369cafdd0d48">format</a> (const char *id, const char *defaultFormat,...) const noexcept</td></tr>
-<tr class="memdesc:a155e1fd5b92bd2eadd71369cafdd0d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a string.  <br /></td></tr>
+<tr class="memitem:a25280f6f9ecc92868d2e1c725c932bec" id="r_a25280f6f9ecc92868d2e1c725c932bec"><td class="memItemLeft">virtual QString&#160;</td><td class="memItemRight"><a class="el" href="#a25280f6f9ecc92868d2e1c725c932bec">getWhat</a> () const noexcept</td></tr>
+<tr class="memdesc:a25280f6f9ecc92868d2e1c725c932bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a human readable string describing the exception.  <br /></td></tr>
+<tr class="memitem:a5711bc967f09eae26988ecb64f6a5629" id="r_a5711bc967f09eae26988ecb64f6a5629"><td class="memItemLeft">virtual QString&#160;</td><td class="memItemRight"><a class="el" href="#a5711bc967f09eae26988ecb64f6a5629">format</a> (const char *id, const char *defaultFormat,...) const noexcept</td></tr>
+<tr class="memdesc:a5711bc967f09eae26988ecb64f6a5629"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a string.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Exception base class. </p>
@@ -210,12 +210,12 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Use <a class="el" href="#a76fe9d7f9de83d364c8e60086dd90837" title="Get a human readable string describing the exception.">getWhat()</a> as the result of <a class="el" href="#a80f176f93db9f0669bd14c4bf440d5d5" title="Reason for exception.">what()</a>. </p>
+<p>Use <a class="el" href="#a25280f6f9ecc92868d2e1c725c932bec" title="Get a human readable string describing the exception.">getWhat()</a> as the result of <a class="el" href="#a80f176f93db9f0669bd14c4bf440d5d5" title="Reason for exception.">what()</a>. </p>
 
 </div>
 </div>
-<a id="a9f0f973331bc9c475b6ef2092daa9643" name="a9f0f973331bc9c475b6ef2092daa9643"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f0f973331bc9c475b6ef2092daa9643">&#9670;&#160;</a></span>BaseException() <span class="overload">[2/2]</span></h2>
+<a id="ad08998a5208199140d7f2045b95dfd9e" name="ad08998a5208199140d7f2045b95dfd9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad08998a5208199140d7f2045b95dfd9e">&#9670;&#160;</a></span>BaseException() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +226,7 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="memname">BaseException::BaseException </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>msg</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -270,8 +270,8 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a155e1fd5b92bd2eadd71369cafdd0d48" name="a155e1fd5b92bd2eadd71369cafdd0d48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a155e1fd5b92bd2eadd71369cafdd0d48">&#9670;&#160;</a></span>format()</h2>
+<a id="a5711bc967f09eae26988ecb64f6a5629" name="a5711bc967f09eae26988ecb64f6a5629"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5711bc967f09eae26988ecb64f6a5629">&#9670;&#160;</a></span>format()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,7 +280,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string BaseException::format </td>
+          <td class="memname">QString BaseException::format </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
         </tr>
@@ -307,8 +307,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a76fe9d7f9de83d364c8e60086dd90837" name="a76fe9d7f9de83d364c8e60086dd90837"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76fe9d7f9de83d364c8e60086dd90837">&#9670;&#160;</a></span>getWhat()</h2>
+<a id="a25280f6f9ecc92868d2e1c725c932bec" name="a25280f6f9ecc92868d2e1c725c932bec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25280f6f9ecc92868d2e1c725c932bec">&#9670;&#160;</a></span>getWhat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -317,7 +317,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string BaseException::getWhat </td>
+          <td class="memname">virtual QString BaseException::getWhat </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -332,7 +332,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Get a human readable string describing the exception. </p>
 
-<p>Reimplemented in <a class="el" href="classBadClientException.html#ada4977a25a4129f437f14b218b95975f">BadClientException</a>, <a class="el" href="classdeskflow_1_1server_1_1ServerConfigReadException.html#ac4fa73a337f3f23104b2ad636260c4de">deskflow::server::ServerConfigReadException</a>, <a class="el" href="classDuplicateClientException.html#a6eb38814b5a84a4048ae343d69d04b1a">DuplicateClientException</a>, <a class="el" href="classExitAppException.html#aba1c0fcfff92209de383c3fa51940b76">ExitAppException</a>, <a class="el" href="classIncompatibleClientException.html#aeafd3764daee46e954ca5a98b00aa9d7">IncompatibleClientException</a>, <a class="el" href="classInvalidProtocolException.html#a02a62f10f28d4ff099613e67d1482f79">InvalidProtocolException</a>, <a class="el" href="classIOClosedException.html#a4668450afac6e0a2a0d26e9bd9032574">IOClosedException</a>, <a class="el" href="classIOEndOfStreamException.html#a0a4c246c79b1ba4ec78e8243cd81bd60">IOEndOfStreamException</a>, <a class="el" href="classIOWouldBlockException.html#abf4141a52547ecc2d95e3d027e243b1d">IOWouldBlockException</a>, <a class="el" href="classMTThreadUnavailableException.html#aaef679ceb25b1b52981b0c14072f0ddf">MTThreadUnavailableException</a>, <a class="el" href="classScreenOpenFailureException.html#aef1e4334fcb87e3b32bb577e9bcaf10f">ScreenOpenFailureException</a>, <a class="el" href="classScreenUnavailableException.html#a14e6003da282369f0f6ce48d25ed9227">ScreenUnavailableException</a>, <a class="el" href="classSocketAddressException.html#a0efa60b613a4c9c302b86f98a0262afd">SocketAddressException</a>, <a class="el" href="classSocketAddressInUseException.html#afbc2a67f9e7c2e7a10667518c615bd19">SocketAddressInUseException</a>, <a class="el" href="classSocketBindException.html#addefec2ea9a66b629b3804e214a20607">SocketBindException</a>, <a class="el" href="classSocketConnectException.html#af31e64b547385abc23e70b7d01ccfee3">SocketConnectException</a>, <a class="el" href="classSocketCreateException.html#a9afeee756f30ee9e56e954757d07cd59">SocketCreateException</a>, <a class="el" href="classSocketIOCloseException.html#abede2a1bbf3624fa6896ca88237bccc5">SocketIOCloseException</a>, <a class="el" href="classUnknownClientException.html#ab7fe867664f6c955d5ab0634579f8607">UnknownClientException</a>, and <a class="el" href="classXIOReadMismatch.html#a6872704e7fe3e42c17432ddb535819d5">XIOReadMismatch</a>.</p>
+<p>Reimplemented in <a class="el" href="classBadClientException.html#ab8a4f3c4c35ee2b6949262ee53168a51">BadClientException</a>, <a class="el" href="classdeskflow_1_1server_1_1ServerConfigReadException.html#a79ad5ef4a188e43043df4a4489bd4bd8">deskflow::server::ServerConfigReadException</a>, <a class="el" href="classDuplicateClientException.html#ab357f2678df384d6343ca67cc3587131">DuplicateClientException</a>, <a class="el" href="classExitAppException.html#a01040f22c438438e6464e3e40f3b5bad">ExitAppException</a>, <a class="el" href="classIncompatibleClientException.html#abf0366edc606154587b986fea89fa458">IncompatibleClientException</a>, <a class="el" href="classInvalidProtocolException.html#ae45caea00c4f86c17c732093a773e9fe">InvalidProtocolException</a>, <a class="el" href="classIOClosedException.html#ab9a19c712f4b4647bd1eaa98ac9ce227">IOClosedException</a>, <a class="el" href="classIOEndOfStreamException.html#a1d1b9ff5d5f8213ac1ef4cef0921dba8">IOEndOfStreamException</a>, <a class="el" href="classIOWouldBlockException.html#a5099acc985031b556c03e4c582c2842e">IOWouldBlockException</a>, <a class="el" href="classMTThreadUnavailableException.html#aab776f7f273290a65d4b34c33f4f6744">MTThreadUnavailableException</a>, <a class="el" href="classScreenOpenFailureException.html#aab215e495037cd7ee3253bcb1fb04fc2">ScreenOpenFailureException</a>, <a class="el" href="classScreenUnavailableException.html#ae7ea0f073a7022fff26e850727345a53">ScreenUnavailableException</a>, <a class="el" href="classSocketAddressException.html#a6afd70bbc6845352fb047d8fec40d843">SocketAddressException</a>, <a class="el" href="classSocketAddressInUseException.html#a62599a0fae98ae68a34a47900131f10c">SocketAddressInUseException</a>, <a class="el" href="classSocketBindException.html#adab5725134bbc30b36ecd001f15c0a1d">SocketBindException</a>, <a class="el" href="classSocketConnectException.html#a35cec14ca9b39956f093804fc0a89b30">SocketConnectException</a>, <a class="el" href="classSocketCreateException.html#a13c02726aae54470896a1ca8e326a94b">SocketCreateException</a>, <a class="el" href="classSocketIOCloseException.html#a16c33cd249a7e7caf5e65014827d6cc5">SocketIOCloseException</a>, <a class="el" href="classUnknownClientException.html#ab4a8bc47fd62951e6f7c1cdc325a5b09">UnknownClientException</a>, and <a class="el" href="classXIOReadMismatch.html#a9330cc25a3a9f50556c17a06253e1cbd">XIOReadMismatch</a>.</p>
 
 </div>
 </div>

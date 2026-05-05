@@ -12,5 +12,5 @@ var classSocketAddressException =
     [ "getError", "classSocketAddressException.html#a7dc3056a71a965ea2d196b8a33b44345", null ],
     [ "getHostname", "classSocketAddressException.html#ad20d2ea42b12c0edc1ea3596d75ea181", null ],
     [ "getPort", "classSocketAddressException.html#a8b49eed09b66f8156e2f4747a861f503", null ],
-    [ "getWhat", "classSocketAddressException.html#a0efa60b613a4c9c302b86f98a0262afd", null ]
+    [ "getWhat", "classSocketAddressException.html#a6afd70bbc6845352fb047d8fec40d843", null ]
 ];

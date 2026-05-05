@@ -8,7 +8,7 @@ var searchData=
   ['baseclientproxy_5',['BaseClientProxy',['../classBaseClientProxy.html',1,'BaseClientProxy'],['../classBaseClientProxy.html#aebaa6a28ce74fbb47464049fa5307301',1,'BaseClientProxy::BaseClientProxy()']]],
   ['baseclientproxy_2ecpp_6',['BaseClientProxy.cpp',['../BaseClientProxy_8cpp.html',1,'']]],
   ['baseclientproxy_2eh_7',['BaseClientProxy.h',['../BaseClientProxy_8h.html',1,'']]],
-  ['baseexception_8',['BaseException',['../classBaseException.html',1,'BaseException'],['../classBaseException.html#a675e42df7cdd795575bccf521f8ff930',1,'BaseException::BaseException()'],['../classBaseException.html#a9f0f973331bc9c475b6ef2092daa9643',1,'BaseException::BaseException(const std::string &amp;msg)']]],
+  ['baseexception_8',['BaseException',['../classBaseException.html',1,'BaseException'],['../classBaseException.html#a675e42df7cdd795575bccf521f8ff930',1,'BaseException::BaseException()'],['../classBaseException.html#ad08998a5208199140d7f2045b95dfd9e',1,'BaseException::BaseException(const QString &amp;msg)']]],
   ['baseexception_2ecpp_9',['BaseException.cpp',['../BaseException_8cpp.html',1,'']]],
   ['baseexception_2eh_10',['BaseException.h',['../BaseException_8h.html',1,'']]],
   ['basic_20client_20implementation_11',['Basic Client Implementation',['../protocol_reference.html#autotoc_md40',1,'']]],

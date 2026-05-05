@@ -1,4 +1,4 @@
 var classInvalidProtocolException =
 [
-    [ "getWhat", "classInvalidProtocolException.html#a02a62f10f28d4ff099613e67d1482f79", null ]
+    [ "getWhat", "classInvalidProtocolException.html#ae45caea00c4f86c17c732093a773e9fe", null ]
 ];

@@ -16,7 +16,7 @@ var searchData=
   ['xdgpowermanager_13',['XDGPowerManager',['../classXDGPowerManager.html',1,'XDGPowerManager'],['../classXDGPowerManager.html#a669247ba2ad324671a87898152203ad2',1,'XDGPowerManager::XDGPowerManager()=default'],['../classXDGPowerManager.html#af304118fff455b6cfa61365e5207653b',1,'XDGPowerManager::XDGPowerManager(const XDGPowerManager &amp;)=delete']]],
   ['xdgpowermanager_2ecpp_14',['XDGPowerManager.cpp',['../XDGPowerManager_8cpp.html',1,'']]],
   ['xdgpowermanager_2eh_15',['XDGPowerManager.h',['../XDGPowerManager_8h.html',1,'']]],
-  ['xdprestoretoken_16',['XdpRestoreToken',['../structSettings_1_1Client.html#aea267370b8062d84f19f5bb57d07ef85',1,'Settings::Client']]],
+  ['xdprestoretoken_16',['XdpRestoreToken',['../structSettings_1_1Client.html#aea267370b8062d84f19f5bb57d07ef85',1,'Settings::Client::XdpRestoreToken'],['../structSettings_1_1Server.html#ac78ec0e9e635de6dab0d1c9a45fc78b8',1,'Settings::Server::XdpRestoreToken']]],
   ['xi_5fopcode_17',['xi_opcode',['../XWindowsScreen_8cpp.html#ae038d7c5c20260d929150fbd9e1402c3',1,'XWindowsScreen.cpp']]],
   ['xioreadmismatch_18',['XIOReadMismatch',['../classXIOReadMismatch.html',1,'']]],
   ['xk_5fmiscellany_19',['XK_MISCELLANY',['../XWindowsKeyState_8cpp.html#aeab6a095afeed0b9e64e415c5a5c669a',1,'XK_MISCELLANY:&#160;XWindowsKeyState.cpp'],['../XWindowsScreen_8cpp.html#aeab6a095afeed0b9e64e415c5a5c669a',1,'XK_MISCELLANY:&#160;XWindowsScreen.cpp']]],

@@ -2,7 +2,7 @@ var searchData=
 [
   ['backupsequence_0',['backupSequence',['../classKeySequenceWidget.html#a0e7ddc9f7b1fb5a7a7aa05c1524e88c1',1,'KeySequenceWidget']]],
   ['baseclientproxy_1',['BaseClientProxy',['../classBaseClientProxy.html#aebaa6a28ce74fbb47464049fa5307301',1,'BaseClientProxy']]],
-  ['baseexception_2',['BaseException',['../classBaseException.html#a675e42df7cdd795575bccf521f8ff930',1,'BaseException::BaseException()'],['../classBaseException.html#a9f0f973331bc9c475b6ef2092daa9643',1,'BaseException::BaseException(const std::string &amp;msg)']]],
+  ['baseexception_2',['BaseException',['../classBaseException.html#a675e42df7cdd795575bccf521f8ff930',1,'BaseException::BaseException()'],['../classBaseException.html#ad08998a5208199140d7f2045b95dfd9e',1,'BaseException::BaseException(const QString &amp;msg)']]],
   ['begin_3',['begin',['../classPriorityQueue.html#aeb7034acce02598b6f250fcb3893e889',1,'PriorityQueue::begin()'],['../classPriorityQueue.html#a9d2cd4e8bd00dd34f4e0910818fd8c6a',1,'PriorityQueue::begin() const'],['../classdeskflow_1_1server_1_1Config.html#a905a731e397956acc805fcafe41d2ae0',1,'deskflow::server::Config::begin() const']]],
   ['beginall_4',['beginAll',['../classdeskflow_1_1server_1_1Config.html#ad0f2be3af7e758824d6aa561b50dba13',1,'deskflow::server::Config']]],
   ['begingroup_5',['beginGroup',['../classQSettingsProxy.html#af5b978dd406daa7a8d7fdcf7a87ec6bc',1,'QSettingsProxy']]],

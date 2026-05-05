@@ -1,4 +1,4 @@
 var classSocketCreateException =
 [
-    [ "getWhat", "classSocketCreateException.html#a9afeee756f30ee9e56e954757d07cd59", null ]
+    [ "getWhat", "classSocketCreateException.html#a13c02726aae54470896a1ca8e326a94b", null ]
 ];

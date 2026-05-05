@@ -96,7 +96,7 @@ $(function(){initNavTree('ScreenException_8h_source.html','',''); });
 <div class="contents">
 <a href="ScreenException_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/*</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment"> * Deskflow -- mouse and keyboard sharing utility</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * SPDX-FileCopyrightText: (C) 2025 Deskflow Developers</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> * SPDX-FileCopyrightText: (C) 2025 - 2026 Deskflow Developers</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * SPDX-FileCopyrightText: (C) 2012 - 2016 Symless Ltd.</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * SPDX-FileCopyrightText: (C) 2002 Chris Schoeneman</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> * SPDX-License-Identifier: GPL-2.0-only WITH LicenseRef-OpenSSL-Exception</span></div>
@@ -119,7 +119,7 @@ $(function(){initNavTree('ScreenException_8h_source.html','',''); });
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>  <span class="keyword">using </span>ScreenException::ScreenException;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">protected</span>:</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  std::string <a class="code hl_function" href="classScreenOpenFailureException.html#aef1e4334fcb87e3b32bb577e9bcaf10f">getWhat</a>() <span class="keyword">const</span> <span class="keywordflow">throw</span>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  QString <a class="code hl_function" href="classScreenOpenFailureException.html#aab215e495037cd7ee3253bcb1fb04fc2">getWhat</a>() <span class="keyword">const</span> <span class="keywordflow">throw</span>() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>};</div>
 </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
@@ -132,18 +132,17 @@ $(function(){initNavTree('ScreenException_8h_source.html','',''); });
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>protected:</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <a class="code hl_namespace" href="namespacestd.html">std</a>::<span class="keywordtype">string</span> <a class="code hl_function" href="classScreenUnavailableException.html#a14e6003da282369f0f6ce48d25ed9227">getWhat</a>() const throw() override;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  QString <a class="code hl_function" href="classScreenUnavailableException.html#ae7ea0f073a7022fff26e850727345a53">getWhat</a>() const throw() override;</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>};</div>
 </div>
 <div class="ttc" id="aBaseException_8h_html"><div class="ttname"><a href="BaseException_8h.html">BaseException.h</a></div></div>
 <div class="ttc" id="aclassBaseException_html_a675e42df7cdd795575bccf521f8ff930"><div class="ttname"><a href="classBaseException.html#a675e42df7cdd795575bccf521f8ff930">BaseException::BaseException</a></div><div class="ttdeci">BaseException()</div><div class="ttdoc">Use getWhat() as the result of what().</div><div class="ttdef"><b>Definition</b> BaseException.cpp:18</div></div>
 <div class="ttc" id="aclassScreenException_html"><div class="ttname"><a href="classScreenException.html">ScreenException</a></div><div class="ttdoc">The ScreenException class, generic screen exception.</div><div class="ttdef"><b>Definition</b> ScreenException.h:17</div></div>
 <div class="ttc" id="aclassScreenOpenFailureException_html"><div class="ttname"><a href="classScreenOpenFailureException.html">ScreenOpenFailureException</a></div><div class="ttdoc">ScreenOpenFailureException - Thrown when a screen cannot be opened or initialized.</div><div class="ttdef"><b>Definition</b> ScreenException.h:25</div></div>
-<div class="ttc" id="aclassScreenOpenFailureException_html_aef1e4334fcb87e3b32bb577e9bcaf10f"><div class="ttname"><a href="classScreenOpenFailureException.html#aef1e4334fcb87e3b32bb577e9bcaf10f">ScreenOpenFailureException::getWhat</a></div><div class="ttdeci">std::string getWhat() const override</div><div class="ttdoc">Get a human readable string describing the exception.</div><div class="ttdef"><b>Definition</b> ScreenException.cpp:15</div></div>
+<div class="ttc" id="aclassScreenOpenFailureException_html_aab215e495037cd7ee3253bcb1fb04fc2"><div class="ttname"><a href="classScreenOpenFailureException.html#aab215e495037cd7ee3253bcb1fb04fc2">ScreenOpenFailureException::getWhat</a></div><div class="ttdeci">QString getWhat() const override</div><div class="ttdoc">Get a human readable string describing the exception.</div><div class="ttdef"><b>Definition</b> ScreenException.cpp:15</div></div>
 <div class="ttc" id="aclassScreenUnavailableException_html"><div class="ttname"><a href="classScreenUnavailableException.html">ScreenUnavailableException</a></div><div class="ttdoc">Screen unavailable exception.</div><div class="ttdef"><b>Definition</b> ScreenException.h:38</div></div>
-<div class="ttc" id="aclassScreenUnavailableException_html_a14e6003da282369f0f6ce48d25ed9227"><div class="ttname"><a href="classScreenUnavailableException.html#a14e6003da282369f0f6ce48d25ed9227">ScreenUnavailableException::getWhat</a></div><div class="ttdeci">std::string getWhat() const override</div><div class="ttdoc">Get a human readable string describing the exception.</div><div class="ttdef"><b>Definition</b> ScreenException.cpp:24</div></div>
 <div class="ttc" id="aclassScreenUnavailableException_html_aaa992bb802bf53bc06538a5533f22397"><div class="ttname"><a href="classScreenUnavailableException.html#aaa992bb802bf53bc06538a5533f22397">ScreenUnavailableException::~ScreenUnavailableException</a></div><div class="ttdeci">~ScreenUnavailableException() override=default</div></div>
-<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div><div class="ttdef"><b>Definition</b> Config.h:28</div></div>
+<div class="ttc" id="aclassScreenUnavailableException_html_ae7ea0f073a7022fff26e850727345a53"><div class="ttname"><a href="classScreenUnavailableException.html#ae7ea0f073a7022fff26e850727345a53">ScreenUnavailableException::getWhat</a></div><div class="ttdeci">QString getWhat() const override</div><div class="ttdoc">Get a human readable string describing the exception.</div><div class="ttdef"><b>Definition</b> ScreenException.cpp:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->
