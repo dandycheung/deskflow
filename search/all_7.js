@@ -77,7 +77,7 @@ var searchData=
   ['exitapp_74',['exitApp',['../classAppUtil.html#a0ab681d361fbb3531870cd624d45e8ca',1,'AppUtil::exitApp()'],['../classAppUtilWindows.html#aa3e682db043261faf827019df0cfbf06',1,'AppUtilWindows::exitApp()']]],
   ['exitappexception_75',['ExitAppException',['../classExitAppException.html',1,'ExitAppException'],['../classExitAppException.html#a61c3d2092d07a05c10f8b3b14482e6b6',1,'ExitAppException::ExitAppException()']]],
   ['exitappstatic_76',['exitAppStatic',['../classAppUtil.html#aff79fd6fc709bd41bb9a2d2a84ee9e53',1,'AppUtil']]],
-  ['exitcode_77',['exitCode',['../classExitEventData.html#af030e25ba060ff897bc06c91bbce6938',1,'ExitEventData']]],
+  ['exitcode_77',['exitCode',['../classExitEventData.html#ae0b9a8cdbcb78dc245368d95f2ef4604',1,'ExitEventData']]],
   ['exitcodes_2eh_78',['ExitCodes.h',['../ExitCodes_8h.html',1,'']]],
   ['exiteventdata_79',['ExitEventData',['../classExitEventData.html',1,'ExitEventData'],['../classExitEventData.html#a0faee5602ae927717e34a12250a6ef64',1,'ExitEventData::ExitEventData()']]],
   ['externalconfig_80',['ExternalConfig',['../structSettings_1_1Server.html#ae54c06a2036b14062071d2ea36fb09e2',1,'Settings::Server']]],

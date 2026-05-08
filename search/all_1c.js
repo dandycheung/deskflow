@@ -56,7 +56,7 @@ var searchData=
   ['_7eeventqueue_53',['~EventQueue',['../classEventQueue.html#a8228726bd49d192d3aa915650333133b',1,'EventQueue']]],
   ['_7eeventqueuetimer_54',['~EventQueueTimer',['../classEventQueueTimer.html#a88f1676d8db4c51f7e3c49991abcee73',1,'EventQueueTimer']]],
   ['_7eexitappexception_55',['~ExitAppException',['../classExitAppException.html#a5ed4b66e4509091dff20be26f1a01431',1,'ExitAppException']]],
-  ['_7eexiteventdata_56',['~ExitEventData',['../classExitEventData.html#a2c58db14f279988f75eb8771ce8512ae',1,'ExitEventData']]],
+  ['_7eexiteventdata_56',['~ExitEventData',['../classExitEventData.html#a12424ab2a9597e67d91a0a14a3245aaf',1,'ExitEventData']]],
   ['_7efilelogoutputter_57',['~FileLogOutputter',['../classFileLogOutputter.html#a0c758f189a6f89bb7579a1fed87b4551',1,'FileLogOutputter']]],
   ['_7efinalaction_58',['~FinalAction',['../classdeskflow_1_1FinalAction.html#aaa4338395da896c1e867914ba8cf91cb',1,'deskflow::FinalAction']]],
   ['_7efingerprintdialog_59',['~FingerprintDialog',['../classFingerprintDialog.html#adcf7b7eadc6efe8103cadd81968f0f6f',1,'FingerprintDialog']]],

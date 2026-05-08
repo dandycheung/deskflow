@@ -8,5 +8,5 @@ var searchData=
   ['qtmessagehandler_5',['qtMessageHandler',['../deskflow-core_8cpp.html#a62c3af84bbe633bcda2d2bb66c22eb8a',1,'deskflow-core.cpp']]],
   ['query_20messages_6',['Query Messages',['../group__protocol__queries.html',1,'']]],
   ['quit_7',['Quit',['../namespacedeskflow.html#a34787a880fd439e02383f336665d7bc2a0d82790b0612935992bd564a17ce37d6',1,'deskflow']]],
-  ['quit_8',['quit',['../classApp.html#ab474007a8e53ffa41f9a13e0640b387f',1,'App']]]
+  ['quit_8',['quit',['../classApp.html#a869502c576b0283f588ef2e607e1cbb3',1,'App']]]
 ];
