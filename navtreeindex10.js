@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"classIOSXKeyResource.html#a2098d8a56e0e37a377ad07cb1f02f259":[6,0,125,5],
 "classIOSXKeyResource.html#a38d017ad4d21d216804d09e8825d8ca8":[6,0,125,1],
 "classIOSXKeyResource.html#a466ff980dad8ab4d34508c1fef0b1673":[6,0,125,8],
 "classIOSXKeyResource.html#a4942449fa6caf48769110e7457a97cd5":[6,0,125,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "classInputFilter_1_1SwitchInDirectionAction.html#a5445df0e7f478d6e78480ddc81fd997e":[6,0,118,8,0],
 "classInputFilter_1_1SwitchInDirectionAction.html#a79b162a906b0ef3d82411d464ae765d3":[6,0,118,8,1],
 "classInputFilter_1_1SwitchInDirectionAction.html#a7e9ecf4841effd07a57fc7e1d9ffc296":[6,0,118,8,2],
-"classInputFilter_1_1SwitchInDirectionAction.html#abf877191b67aca47a82091ae45f77b01":[6,0,118,8,3],
-"classInputFilter_1_1SwitchToNextScreenAction.html":[6,0,118,9]
+"classInputFilter_1_1SwitchInDirectionAction.html#abf877191b67aca47a82091ae45f77b01":[6,0,118,8,3]
 };

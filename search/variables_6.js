@@ -24,10 +24,11 @@ var searchData=
   ['g_5fprocessid_21',['g_processID',['../MSWindowsHook_8cpp.html#adff6fd66ebf3204e596a3ebf48ef1b53',1,'MSWindowsHook.cpp']]],
   ['g_5fscreensaver_22',['g_screenSaver',['../MSWindowsHook_8cpp.html#ae37d36b771ec9cee981a979d2d5f00ed',1,'MSWindowsHook.cpp']]],
   ['g_5fthreadid_23',['g_threadID',['../MSWindowsHook_8cpp.html#ac1326b350088062c1ba9cd6890901ecd',1,'MSWindowsHook.cpp']]],
-  ['g_5fwscreen_24',['g_wScreen',['../MSWindowsHook_8cpp.html#a0797af835edf22047005dd1b61d79cfc',1,'MSWindowsHook.cpp']]],
-  ['g_5fxscreen_25',['g_xScreen',['../MSWindowsHook_8cpp.html#aa749232d57b79d6dcce16f7b1b44915d',1,'MSWindowsHook.cpp']]],
-  ['g_5fyscreen_26',['g_yScreen',['../MSWindowsHook_8cpp.html#a652e5c5abcc4f329650e917996ba7211',1,'MSWindowsHook.cpp']]],
-  ['g_5fzonesides_27',['g_zoneSides',['../MSWindowsHook_8cpp.html#a3fc450995f60fe1bdfe3284b53033cee',1,'MSWindowsHook.cpp']]],
-  ['g_5fzonesize_28',['g_zoneSize',['../MSWindowsHook_8cpp.html#afad0458b7c62fc732d8e8c9af19f7c00',1,'MSWindowsHook.cpp']]],
-  ['guidebug_29',['GuiDebug',['../structSettings_1_1Log.html#a2cf2eda726a37ebbd8bc31dc076dbde1',1,'Settings::Log']]]
+  ['g_5ftismutex_24',['g_tisMutex',['../OSXAutoTypes_8h.html#ab57e3f3d0f06983a957c0945989d1515',1,'OSXAutoTypes.h']]],
+  ['g_5fwscreen_25',['g_wScreen',['../MSWindowsHook_8cpp.html#a0797af835edf22047005dd1b61d79cfc',1,'MSWindowsHook.cpp']]],
+  ['g_5fxscreen_26',['g_xScreen',['../MSWindowsHook_8cpp.html#aa749232d57b79d6dcce16f7b1b44915d',1,'MSWindowsHook.cpp']]],
+  ['g_5fyscreen_27',['g_yScreen',['../MSWindowsHook_8cpp.html#a652e5c5abcc4f329650e917996ba7211',1,'MSWindowsHook.cpp']]],
+  ['g_5fzonesides_28',['g_zoneSides',['../MSWindowsHook_8cpp.html#a3fc450995f60fe1bdfe3284b53033cee',1,'MSWindowsHook.cpp']]],
+  ['g_5fzonesize_29',['g_zoneSize',['../MSWindowsHook_8cpp.html#afad0458b7c62fc732d8e8c9af19f7c00',1,'MSWindowsHook.cpp']]],
+  ['guidebug_30',['GuiDebug',['../structSettings_1_1Log.html#a2cf2eda726a37ebbd8bc31dc076dbde1',1,'Settings::Log']]]
 ];

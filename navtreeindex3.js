@@ -206,6 +206,7 @@ var NAVTREEINDEX3 =
 "NewScreenWidget_8h_source.html":[7,0,1,1,5,5,9],
 "OSXAutoTypes_8h.html":[7,0,1,1,9,44],
 "OSXAutoTypes_8h.html#a8d56dea041278f9829995b8ca09345b0":[7,0,1,1,9,44,2],
+"OSXAutoTypes_8h.html#ab57e3f3d0f06983a957c0945989d1515":[7,0,1,1,9,44,4],
 "OSXAutoTypes_8h.html#ac5410631aa19cb29242cf0d46ad7f051":[7,0,1,1,9,44,0],
 "OSXAutoTypes_8h.html#ae5f9f8e9afa02e2ea1aa5df9e3afe2fb":[7,0,1,1,9,44,3],
 "OSXAutoTypes_8h.html#af6316859a71bafcd659ac153533c29ca":[7,0,1,1,9,44,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "OSXCocoaApp_8m.html#a6212aea94dc25a72a97d9530cb984ee8":[7,0,1,1,9,62,1],
 "OSXCocoaApp_8m.html#a805c087cd103a7a9b7e9d502bf722f95":[7,0,1,1,9,62,0],
 "OSXCocoaApp_8m.html#ad6e36ef3cf11ae31babd3a200e7445c7":[7,0,1,1,9,62,2],
-"OSXEventQueueBuffer_8cpp.html":[7,0,1,1,9,63],
-"OSXEventQueueBuffer_8h.html":[7,0,1,1,9,64]
+"OSXEventQueueBuffer_8cpp.html":[7,0,1,1,9,63]
 };

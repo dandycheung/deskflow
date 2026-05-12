@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"OSXEventQueueBuffer_8h.html":[7,0,1,1,9,64],
 "OSXEventQueueBuffer_8h_source.html":[7,0,1,1,9,64],
 "OSXHelpers_8h.html":[7,0,1,1,5,22],
 "OSXHelpers_8h.html#a408b2ffe3740e072f33eb2654b08e66a":[7,0,1,1,5,22,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "Server_8h.html":[7,0,1,1,10,33],
 "Server_8h_source.html":[7,0,1,1,10,33],
 "SettingsDialog_8cpp.html":[7,0,1,1,5,2,14],
-"SettingsDialog_8h.html":[7,0,1,1,5,2,15],
-"SettingsDialog_8h_source.html":[7,0,1,1,5,2,15]
+"SettingsDialog_8h.html":[7,0,1,1,5,2,15]
 };

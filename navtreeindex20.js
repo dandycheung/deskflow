@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"classdeskflow_1_1server_1_1Config.html#aed92ec45c378daa80ff3cf1745418cc3":[5,0,0,5,0,2],
 "classdeskflow_1_1server_1_1Config.html#aed92ec45c378daa80ff3cf1745418cc3":[6,0,0,4,0,2],
 "classdeskflow_1_1server_1_1Config.html#af1b8d1b689844f359188f141cba80af3":[5,0,0,5,0,39],
 "classdeskflow_1_1server_1_1Config.html#af1b8d1b689844f359188f141cba80af3":[6,0,0,4,0,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "files.html":[7,0],
 "functions.html":[6,3,0],
 "functions.html":[6,3,0,0],
-"functions_a.html":[6,3,0,1],
-"functions_b.html":[6,3,0,2]
+"functions_a.html":[6,3,0,1]
 };

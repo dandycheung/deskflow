@@ -96,16 +96,19 @@ $(function(){initNavTree('OSXAutoTypes_8h.html','',''); });
 <div class="contents">
 <div class="textblock"><code>#include &lt;Carbon/Carbon.h&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for OSXAutoTypes.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="OSXAutoTypes_8h__incl.png" border="0" usemap="#asrc_2lib_2platform_2OSXAutoTypes_8h" loading="lazy" alt=""/></div>
 <map name="asrc_2lib_2platform_2OSXAutoTypes_8h" id="asrc_2lib_2platform_2OSXAutoTypes_8h">
-<area shape="rect" title=" " alt="" coords="41,5,207,44"/>
+<area shape="rect" title=" " alt="" coords="101,5,267,44"/>
 <area shape="rect" title=" " alt="" coords="5,92,126,117"/>
-<area shape="poly" title=" " alt="" coords="112,43,85,81,81,78,108,46"/>
+<area shape="poly" title=" " alt="" coords="158,44,97,86,94,81,153,45"/>
 <area shape="rect" title=" " alt="" coords="150,92,219,117"/>
-<area shape="poly" title=" " alt="" coords="140,42,169,80,163,79,138,47"/>
+<area shape="poly" title=" " alt="" coords="186,43,186,78,182,75,182,47"/>
+<area shape="rect" title=" " alt="" coords="244,92,301,117"/>
+<area shape="poly" title=" " alt="" coords="206,42,250,82,245,82,205,47"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -113,13 +116,15 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="OSXAutoTypes_8h__dep__incl.png" border="0" usemap="#asrc_2lib_2platform_2OSXAutoTypes_8hdep" loading="lazy" alt=""/></div>
 <map name="asrc_2lib_2platform_2OSXAutoTypes_8hdep" id="asrc_2lib_2platform_2OSXAutoTypes_8hdep">
-<area shape="rect" title=" " alt="" coords="148,5,314,44"/>
-<area shape="rect" href="OSXKeyState_8h.html" title=" " alt="" coords="130,92,333,117"/>
-<area shape="poly" title=" " alt="" coords="233,58,234,93,229,90,230,62"/>
-<area shape="rect" href="OSXKeyState_8cpp.html" title=" " alt="" coords="5,165,223,189"/>
-<area shape="poly" title=" " alt="" coords="202,124,135,166,132,162,196,125"/>
-<area shape="rect" href="OSXScreen_8mm.html" title=" " alt="" coords="247,165,453,189"/>
-<area shape="poly" title=" " alt="" coords="265,122,333,164,328,164,263,127"/>
+<area shape="rect" title=" " alt="" coords="109,5,275,44"/>
+<area shape="rect" href="IOSXKeyResource_8cpp.html" title=" " alt="" coords="5,92,171,131"/>
+<area shape="poly" title=" " alt="" coords="155,56,113,93,109,89,159,52"/>
+<area shape="rect" href="OSXKeyState_8h.html" title=" " alt="" coords="194,99,398,124"/>
+<area shape="poly" title=" " alt="" coords="227,51,284,98,279,99,226,57"/>
+<area shape="rect" href="OSXKeyState_8cpp.html" title=" " alt="" coords="69,179,286,203"/>
+<area shape="poly" title=" " alt="" coords="268,132,196,180,194,176,263,133"/>
+<area shape="rect" href="OSXScreen_8mm.html" title=" " alt="" coords="310,179,516,203"/>
+<area shape="poly" title=" " alt="" coords="327,130,398,178,393,178,325,135"/>
 </map>
 </div>
 </div>
@@ -131,6 +136,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ac5410631aa19cb29242cf0d46ad7f051" id="r_ac5410631aa19cb29242cf0d46ad7f051"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#ac5410631aa19cb29242cf0d46ad7f051">AutoCFArray</a> = std::unique_ptr&lt;const __CFArray, <a class="el" href="#ae5f9f8e9afa02e2ea1aa5df9e3afe2fb">CFDeallocator</a>&gt;</td></tr>
 <tr class="memitem:af6316859a71bafcd659ac153533c29ca" id="r_af6316859a71bafcd659ac153533c29ca"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#af6316859a71bafcd659ac153533c29ca">AutoCFDictionary</a> = std::unique_ptr&lt;const __CFDictionary, <a class="el" href="#ae5f9f8e9afa02e2ea1aa5df9e3afe2fb">CFDeallocator</a>&gt;</td></tr>
 <tr class="memitem:a8d56dea041278f9829995b8ca09345b0" id="r_a8d56dea041278f9829995b8ca09345b0"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a8d56dea041278f9829995b8ca09345b0">AutoTISInputSourceRef</a> = std::unique_ptr&lt;__TISInputSource, <a class="el" href="#ae5f9f8e9afa02e2ea1aa5df9e3afe2fb">CFDeallocator</a>&gt;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab57e3f3d0f06983a957c0945989d1515" id="r_ab57e3f3d0f06983a957c0945989d1515"><td class="memItemLeft">std::mutex&#160;</td><td class="memItemRight"><a class="el" href="#ab57e3f3d0f06983a957c0945989d1515">g_tisMutex</a></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="ac5410631aa19cb29242cf0d46ad7f051" name="ac5410631aa19cb29242cf0d46ad7f051"></a>
@@ -185,6 +194,29 @@ Typedefs</h2></td></tr>
           <td class="memname">using <a class="el" href="#ae5f9f8e9afa02e2ea1aa5df9e3afe2fb">CFDeallocator</a> = decltype(&amp;CFRelease)</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="ab57e3f3d0f06983a957c0945989d1515" name="ab57e3f3d0f06983a957c0945989d1515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab57e3f3d0f06983a957c0945989d1515">&#9670;&#160;</a></span>g_tisMutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex g_tisMutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

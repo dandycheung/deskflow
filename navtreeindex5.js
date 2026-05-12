@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"SettingsDialog_8h_source.html":[7,0,1,1,5,2,15],
 "Settings_8cpp.html":[7,0,1,1,3,9],
 "Settings_8h.html":[7,0,1,1,3,10],
 "Settings_8h_source.html":[7,0,1,1,3,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "classApp.html#a9bd1531cdd8af54c9c14b3931512410a":[6,0,6,4],
 "classApp.html#a9ebe7c05d696bb7dddd0bad9b51c94e9":[6,0,6,6],
 "classApp.html#aab3f6534616a1a83c021e0d78f7469c0":[6,0,6,23],
-"classApp.html#ab25cb14c8734dd3d83f96240f3b25740":[6,0,6,19],
-"classApp.html#ab4f1cdee9e6fa5c0f0fcb34b0beb9048":[6,0,6,7]
+"classApp.html#ab25cb14c8734dd3d83f96240f3b25740":[6,0,6,19]
 };
