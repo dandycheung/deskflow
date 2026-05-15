@@ -94,7 +94,7 @@ $(function(){initNavTree('Log_8h.html','',''); });
   <div class="headertitle"><div class="title">Log.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="LogLevel_8h_source.html">LogLevel.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="LogLevel_8h_source.html">common/LogLevel.h</a>&quot;</code><br />
 <code>#include &lt;list&gt;</code><br />
 <code>#include &lt;mutex&gt;</code><br />
 <code>#include &lt;QString&gt;</code><br />
@@ -103,15 +103,18 @@ Include dependency graph for Log.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="Log_8h__incl.png" border="0" usemap="#asrc_2lib_2base_2Log_8h" loading="lazy" alt=""/></div>
 <map name="asrc_2lib_2base_2Log_8h" id="asrc_2lib_2base_2Log_8h">
-<area shape="rect" title=" " alt="" coords="106,5,230,30"/>
-<area shape="rect" href="LogLevel_8h.html" title=" " alt="" coords="5,78,89,103"/>
-<area shape="poly" title=" " alt="" coords="151,31,81,72,78,68,146,30"/>
-<area shape="rect" title=" " alt="" coords="113,78,152,103"/>
-<area shape="poly" title=" " alt="" coords="165,29,147,66,143,63,160,32"/>
-<area shape="rect" title=" " alt="" coords="176,78,233,103"/>
-<area shape="poly" title=" " alt="" coords="176,28,194,65,189,64,173,33"/>
-<area shape="rect" title=" " alt="" coords="257,78,322,103"/>
-<area shape="poly" title=" " alt="" coords="189,28,260,70,254,70,188,33"/>
+<area shape="rect" title=" " alt="" coords="146,5,271,30"/>
+<area shape="rect" href="LogLevel_8h.html" title=" " alt="" coords="5,78,143,103"/>
+<area shape="poly" title=" " alt="" coords="185,33,111,73,108,68,188,29"/>
+<area shape="rect" title=" " alt="" coords="140,151,205,175"/>
+<area shape="poly" title=" " alt="" coords="208,29,182,137,177,134,203,31"/>
+<area shape="rect" title=" " alt="" coords="217,78,256,103"/>
+<area shape="poly" title=" " alt="" coords="214,28,229,64,224,63,212,33"/>
+<area shape="rect" title=" " alt="" coords="280,78,337,103"/>
+<area shape="poly" title=" " alt="" coords="226,28,282,68,277,69,225,33"/>
+<area shape="rect" title=" " alt="" coords="39,151,109,175"/>
+<area shape="poly" title=" " alt="" coords="76,101,77,136,71,134,72,105"/>
+<area shape="poly" title=" " alt="" coords="91,101,147,140,141,142,89,106"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -334,29 +337,23 @@ Macros</h2></td></tr>
 <tr class="memitem:ab1b2239af749ea76d3f9e7f4daa13523" id="r_ab1b2239af749ea76d3f9e7f4daa13523"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ab1b2239af749ea76d3f9e7f4daa13523">CLOG_TAG_CRIT</a>&#160;&#160;&#160;&quot;%z\060&quot;</td></tr>
 <tr class="memitem:a9bf0861a8f654f578c519ec832b3aada" id="r_a9bf0861a8f654f578c519ec832b3aada"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9bf0861a8f654f578c519ec832b3aada">CLOG_TAG_ERR</a>&#160;&#160;&#160;&quot;%z\061&quot;</td></tr>
 <tr class="memitem:a237fa1643d562f915f9610213bf50bc6" id="r_a237fa1643d562f915f9610213bf50bc6"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a237fa1643d562f915f9610213bf50bc6">CLOG_TAG_WARN</a>&#160;&#160;&#160;&quot;%z\062&quot;</td></tr>
-<tr class="memitem:ac3686f5746a70b01d5a54ca2899c3fd0" id="r_ac3686f5746a70b01d5a54ca2899c3fd0"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ac3686f5746a70b01d5a54ca2899c3fd0">CLOG_TAG_NOTE</a>&#160;&#160;&#160;&quot;%z\063&quot;</td></tr>
-<tr class="memitem:a2972a7bfaaf81e5f3ffd32568d4c6811" id="r_a2972a7bfaaf81e5f3ffd32568d4c6811"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a2972a7bfaaf81e5f3ffd32568d4c6811">CLOG_TAG_INFO</a>&#160;&#160;&#160;&quot;%z\064&quot;</td></tr>
-<tr class="memitem:acd40494251e76e5a5e82d3ff26507fd0" id="r_acd40494251e76e5a5e82d3ff26507fd0"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#acd40494251e76e5a5e82d3ff26507fd0">CLOG_TAG_DEBUG</a>&#160;&#160;&#160;&quot;%z\065&quot;</td></tr>
-<tr class="memitem:a041e5b56605ff6023a4b9fb7e0283ae5" id="r_a041e5b56605ff6023a4b9fb7e0283ae5"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a041e5b56605ff6023a4b9fb7e0283ae5">CLOG_TAG_DEBUG1</a>&#160;&#160;&#160;&quot;%z\066&quot;</td></tr>
-<tr class="memitem:ad0b7dfc074bfca511a8518e6badca3b7" id="r_ad0b7dfc074bfca511a8518e6badca3b7"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ad0b7dfc074bfca511a8518e6badca3b7">CLOG_TAG_DEBUG2</a>&#160;&#160;&#160;&quot;%z\067&quot;</td></tr>
+<tr class="memitem:a2972a7bfaaf81e5f3ffd32568d4c6811" id="r_a2972a7bfaaf81e5f3ffd32568d4c6811"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a2972a7bfaaf81e5f3ffd32568d4c6811">CLOG_TAG_INFO</a>&#160;&#160;&#160;&quot;%z\063&quot;</td></tr>
+<tr class="memitem:acd40494251e76e5a5e82d3ff26507fd0" id="r_acd40494251e76e5a5e82d3ff26507fd0"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#acd40494251e76e5a5e82d3ff26507fd0">CLOG_TAG_DEBUG</a>&#160;&#160;&#160;&quot;%z\064&quot;</td></tr>
+<tr class="memitem:a2add169e3f3e08ec319fac4b4c2a2b21" id="r_a2add169e3f3e08ec319fac4b4c2a2b21"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a2add169e3f3e08ec319fac4b4c2a2b21">CLOG_TAG_VERBOSE</a>&#160;&#160;&#160;&quot;%z\065&quot;</td></tr>
 <tr class="memitem:a1cdffb99e278d39c01456433dbd7c55a" id="r_a1cdffb99e278d39c01456433dbd7c55a"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a1cdffb99e278d39c01456433dbd7c55a">CLOG_PRINT</a>&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#a8393964052c0e61803f967415aa8c0ac">CLOG_TAG_PRINT</a></td></tr>
 <tr class="memitem:ae540a914cab70d94fb4963a03cd4f363" id="r_ae540a914cab70d94fb4963a03cd4f363"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ae540a914cab70d94fb4963a03cd4f363">CLOG_CRIT</a>&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#ab1b2239af749ea76d3f9e7f4daa13523">CLOG_TAG_CRIT</a></td></tr>
 <tr class="memitem:ac2c0dbe55ad449a4f4ea00e1f5a93160" id="r_ac2c0dbe55ad449a4f4ea00e1f5a93160"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ac2c0dbe55ad449a4f4ea00e1f5a93160">CLOG_ERR</a>&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#a9bf0861a8f654f578c519ec832b3aada">CLOG_TAG_ERR</a></td></tr>
 <tr class="memitem:aa35f4018af5f6bc5a8e9a5da56823b94" id="r_aa35f4018af5f6bc5a8e9a5da56823b94"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aa35f4018af5f6bc5a8e9a5da56823b94">CLOG_WARN</a>&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#a237fa1643d562f915f9610213bf50bc6">CLOG_TAG_WARN</a></td></tr>
-<tr class="memitem:aac036dc6ac96a54a7db0ff29e61c6e86" id="r_aac036dc6ac96a54a7db0ff29e61c6e86"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aac036dc6ac96a54a7db0ff29e61c6e86">CLOG_NOTE</a>&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#ac3686f5746a70b01d5a54ca2899c3fd0">CLOG_TAG_NOTE</a></td></tr>
 <tr class="memitem:a984c30f63a9501d242fedd0439f1ed11" id="r_a984c30f63a9501d242fedd0439f1ed11"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a984c30f63a9501d242fedd0439f1ed11">CLOG_INFO</a>&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#a2972a7bfaaf81e5f3ffd32568d4c6811">CLOG_TAG_INFO</a></td></tr>
 <tr class="memitem:a3dc6b9e7273bc09396310d9cdf41f690" id="r_a3dc6b9e7273bc09396310d9cdf41f690"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a3dc6b9e7273bc09396310d9cdf41f690">CLOG_DEBUG</a>&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#acd40494251e76e5a5e82d3ff26507fd0">CLOG_TAG_DEBUG</a></td></tr>
-<tr class="memitem:ac52a509bb9cd20414ba728bb1a0dc373" id="r_ac52a509bb9cd20414ba728bb1a0dc373"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ac52a509bb9cd20414ba728bb1a0dc373">CLOG_DEBUG1</a>&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#a041e5b56605ff6023a4b9fb7e0283ae5">CLOG_TAG_DEBUG1</a></td></tr>
-<tr class="memitem:a1a6f5d9796ad6b8fcd42f27dd6518b73" id="r_a1a6f5d9796ad6b8fcd42f27dd6518b73"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a1a6f5d9796ad6b8fcd42f27dd6518b73">CLOG_DEBUG2</a>&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#ad0b7dfc074bfca511a8518e6badca3b7">CLOG_TAG_DEBUG2</a></td></tr>
+<tr class="memitem:a98eed879e7a09bf92f1ecdea0254a0c2" id="r_a98eed879e7a09bf92f1ecdea0254a0c2"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a98eed879e7a09bf92f1ecdea0254a0c2">CLOG_VERBOSE</a>&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#a2add169e3f3e08ec319fac4b4c2a2b21">CLOG_TAG_VERBOSE</a></td></tr>
 <tr class="memitem:aaf3a42324e3a3a4e3ca3a7a974f21167" id="r_aaf3a42324e3a3a4e3ca3a7a974f21167"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aaf3a42324e3a3a4e3ca3a7a974f21167">LOG_PRINT</a>(...)</td></tr>
 <tr class="memitem:a0929e7b2b643a94ddeea4863983c499d" id="r_a0929e7b2b643a94ddeea4863983c499d"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a0929e7b2b643a94ddeea4863983c499d">LOG_CRIT</a>(...)</td></tr>
 <tr class="memitem:ad6db28c61c838c1f7316417e1e4847f2" id="r_ad6db28c61c838c1f7316417e1e4847f2"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ad6db28c61c838c1f7316417e1e4847f2">LOG_ERR</a>(...)</td></tr>
 <tr class="memitem:add82efa459e0af380b68522c29b9fd44" id="r_add82efa459e0af380b68522c29b9fd44"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#add82efa459e0af380b68522c29b9fd44">LOG_WARN</a>(...)</td></tr>
-<tr class="memitem:ae438ca6a3afbac24d1468bebe035269d" id="r_ae438ca6a3afbac24d1468bebe035269d"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ae438ca6a3afbac24d1468bebe035269d">LOG_NOTE</a>(...)</td></tr>
 <tr class="memitem:a378e28bfcb78d17285210d6bbb70a083" id="r_a378e28bfcb78d17285210d6bbb70a083"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(...)</td></tr>
 <tr class="memitem:a754b3d074e0af4ad3c7b918dd77ecb2d" id="r_a754b3d074e0af4ad3c7b918dd77ecb2d"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(...)</td></tr>
-<tr class="memitem:a3bab8b308e4a3f5a8b55d51d52163f69" id="r_a3bab8b308e4a3f5a8b55d51d52163f69"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a3bab8b308e4a3f5a8b55d51d52163f69">LOG_DEBUG1</a>(...)</td></tr>
-<tr class="memitem:a4b7036b56a49dc7084681c4c0385fbc6" id="r_a4b7036b56a49dc7084681c4c0385fbc6"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a4b7036b56a49dc7084681c4c0385fbc6">LOG_DEBUG2</a>(...)</td></tr>
+<tr class="memitem:a9e7072460e1de0d89f6c8e5b7fcf1260" id="r_a9e7072460e1de0d89f6c8e5b7fcf1260"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9e7072460e1de0d89f6c8e5b7fcf1260">LOG_VERBOSE</a>(...)</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="a3d91eaf9be1bd362e3779b2667768051" name="a3d91eaf9be1bd362e3779b2667768051"></a>
@@ -415,34 +412,6 @@ Macros</h2></td></tr>
 
 </div>
 </div>
-<a id="ac52a509bb9cd20414ba728bb1a0dc373" name="ac52a509bb9cd20414ba728bb1a0dc373"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac52a509bb9cd20414ba728bb1a0dc373">&#9670;&#160;</a></span>CLOG_DEBUG1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CLOG_DEBUG1&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#a041e5b56605ff6023a4b9fb7e0283ae5">CLOG_TAG_DEBUG1</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1a6f5d9796ad6b8fcd42f27dd6518b73" name="a1a6f5d9796ad6b8fcd42f27dd6518b73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a6f5d9796ad6b8fcd42f27dd6518b73">&#9670;&#160;</a></span>CLOG_DEBUG2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CLOG_DEBUG2&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#ad0b7dfc074bfca511a8518e6badca3b7">CLOG_TAG_DEBUG2</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac2c0dbe55ad449a4f4ea00e1f5a93160" name="ac2c0dbe55ad449a4f4ea00e1f5a93160"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac2c0dbe55ad449a4f4ea00e1f5a93160">&#9670;&#160;</a></span>CLOG_ERR</h2>
 
@@ -465,20 +434,6 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define CLOG_INFO&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#a2972a7bfaaf81e5f3ffd32568d4c6811">CLOG_TAG_INFO</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aac036dc6ac96a54a7db0ff29e61c6e86" name="aac036dc6ac96a54a7db0ff29e61c6e86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac036dc6ac96a54a7db0ff29e61c6e86">&#9670;&#160;</a></span>CLOG_NOTE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CLOG_NOTE&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#ac3686f5746a70b01d5a54ca2899c3fd0">CLOG_TAG_NOTE</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -520,35 +475,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CLOG_TAG_DEBUG&#160;&#160;&#160;&quot;%z\065&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a041e5b56605ff6023a4b9fb7e0283ae5" name="a041e5b56605ff6023a4b9fb7e0283ae5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a041e5b56605ff6023a4b9fb7e0283ae5">&#9670;&#160;</a></span>CLOG_TAG_DEBUG1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CLOG_TAG_DEBUG1&#160;&#160;&#160;&quot;%z\066&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad0b7dfc074bfca511a8518e6badca3b7" name="ad0b7dfc074bfca511a8518e6badca3b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0b7dfc074bfca511a8518e6badca3b7">&#9670;&#160;</a></span>CLOG_TAG_DEBUG2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CLOG_TAG_DEBUG2&#160;&#160;&#160;&quot;%z\067&quot;</td>
+          <td class="memname">#define CLOG_TAG_DEBUG&#160;&#160;&#160;&quot;%z\064&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -576,21 +503,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CLOG_TAG_INFO&#160;&#160;&#160;&quot;%z\064&quot;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac3686f5746a70b01d5a54ca2899c3fd0" name="ac3686f5746a70b01d5a54ca2899c3fd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3686f5746a70b01d5a54ca2899c3fd0">&#9670;&#160;</a></span>CLOG_TAG_NOTE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CLOG_TAG_NOTE&#160;&#160;&#160;&quot;%z\063&quot;</td>
+          <td class="memname">#define CLOG_TAG_INFO&#160;&#160;&#160;&quot;%z\063&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -605,6 +518,20 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define CLOG_TAG_PRINT&#160;&#160;&#160;&quot;%z\057&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2add169e3f3e08ec319fac4b4c2a2b21" name="a2add169e3f3e08ec319fac4b4c2a2b21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2add169e3f3e08ec319fac4b4c2a2b21">&#9670;&#160;</a></span>CLOG_TAG_VERBOSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CLOG_TAG_VERBOSE&#160;&#160;&#160;&quot;%z\065&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -633,6 +560,20 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define CLOG_TRACE&#160;&#160;&#160;__FILE__, __LINE__,</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98eed879e7a09bf92f1ecdea0254a0c2" name="a98eed879e7a09bf92f1ecdea0254a0c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98eed879e7a09bf92f1ecdea0254a0c2">&#9670;&#160;</a></span>CLOG_VERBOSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CLOG_VERBOSE&#160;&#160;&#160;<a class="el" href="#ade00c678de791b27ba8ee5ee4ca6b697">CLOG_TRACE</a> <a class="el" href="#a2add169e3f3e08ec319fac4b4c2a2b21">CLOG_TAG_VERBOSE</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -668,9 +609,9 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a05785244b5afab2f72b74f922dfb777b">CLOG</a>-&gt;print _a1</div>
-<div class="ttc" id="aLog_8h_html_a05785244b5afab2f72b74f922dfb777b"><div class="ttname"><a href="#a05785244b5afab2f72b74f922dfb777b">CLOG</a></div><div class="ttdeci">#define CLOG</div><div class="ttdef"><b>Definition</b> Log.h:17</div></div>
+<div class="ttc" id="aLog_8h_html_a05785244b5afab2f72b74f922dfb777b"><div class="ttname"><a href="#a05785244b5afab2f72b74f922dfb777b">CLOG</a></div><div class="ttdeci">#define CLOG</div><div class="ttdef"><b>Definition</b> Log.h:18</div></div>
 </div><!-- fragment --><p>Write to the log. Because macros cannot accept variable arguments, this should be invoked like so: </p><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((CLOG_XXX <span class="stringliteral">&quot;%d and %d are %s&quot;</span>, <a class="code hl_variable" href="ServerConfig_8cpp.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, <a class="code hl_variable" href="ServerConfig_8cpp.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, <a class="code hl_variable" href="ServerConfig_8cpp.html#a6150e0515f7202e2fb518f7206ed97dc">x</a> == <a class="code hl_variable" href="ServerConfig_8cpp.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a> ? <span class="stringliteral">&quot;equal&quot;</span> : <span class="stringliteral">&quot;not equal&quot;</span>));</div>
-<div class="ttc" id="aLog_8h_html_a5216b78c92cbb3c416d909eb9f3253d1"><div class="ttname"><a href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a></div><div class="ttdeci">#define LOG(_a1)</div><div class="ttdef"><b>Definition</b> Log.h:190</div></div>
+<div class="ttc" id="aLog_8h_html_a5216b78c92cbb3c416d909eb9f3253d1"><div class="ttname"><a href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a></div><div class="ttdeci">#define LOG(_a1)</div><div class="ttdef"><b>Definition</b> Log.h:185</div></div>
 <div class="ttc" id="aServerConfig_8cpp_html_a0a2f84ed7838f07779ae24c5a9086d33"><div class="ttname"><a href="ServerConfig_8cpp.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition</b> ServerConfig.cpp:24</div></div>
 <div class="ttc" id="aServerConfig_8cpp_html_a6150e0515f7202e2fb518f7206ed97dc"><div class="ttname"><a href="ServerConfig_8cpp.html#a6150e0515f7202e2fb518f7206ed97dc">x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition</b> ServerConfig.cpp:23</div></div>
 </div><!-- fragment --><p> In particular, notice the double open and close parentheses. Also note that there is no comma after the <code>CLOG_XXX</code>. The <code>XXX</code> should be replaced by one of enumerants in <code>Log::LogLevel</code> without the leading <code>k</code>. For example, <code>CLOG_INFO</code>. The special <code>CLOG_PRINT</code> level will not be filtered and is never prefixed by the filename and line number.</p>
@@ -693,7 +634,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((<a class="code hl_define" href="#ae540a914cab70d94fb4963a03cd4f363">CLOG_CRIT</a> __VA_ARGS__))</div>
-<div class="ttc" id="aLog_8h_html_ae540a914cab70d94fb4963a03cd4f363"><div class="ttname"><a href="#ae540a914cab70d94fb4963a03cd4f363">CLOG_CRIT</a></div><div class="ttdeci">#define CLOG_CRIT</div><div class="ttdef"><b>Definition</b> Log.h:215</div></div>
+<div class="ttc" id="aLog_8h_html_ae540a914cab70d94fb4963a03cd4f363"><div class="ttname"><a href="#ae540a914cab70d94fb4963a03cd4f363">CLOG_CRIT</a></div><div class="ttdeci">#define CLOG_CRIT</div><div class="ttdef"><b>Definition</b> Log.h:208</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -712,45 +653,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((<a class="code hl_define" href="#a3dc6b9e7273bc09396310d9cdf41f690">CLOG_DEBUG</a> __VA_ARGS__))</div>
-<div class="ttc" id="aLog_8h_html_a3dc6b9e7273bc09396310d9cdf41f690"><div class="ttname"><a href="#a3dc6b9e7273bc09396310d9cdf41f690">CLOG_DEBUG</a></div><div class="ttdeci">#define CLOG_DEBUG</div><div class="ttdef"><b>Definition</b> Log.h:220</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a3bab8b308e4a3f5a8b55d51d52163f69" name="a3bab8b308e4a3f5a8b55d51d52163f69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bab8b308e4a3f5a8b55d51d52163f69">&#9670;&#160;</a></span>LOG_DEBUG1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LOG_DEBUG1</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((<a class="code hl_define" href="#ac52a509bb9cd20414ba728bb1a0dc373">CLOG_DEBUG1</a> __VA_ARGS__))</div>
-<div class="ttc" id="aLog_8h_html_ac52a509bb9cd20414ba728bb1a0dc373"><div class="ttname"><a href="#ac52a509bb9cd20414ba728bb1a0dc373">CLOG_DEBUG1</a></div><div class="ttdeci">#define CLOG_DEBUG1</div><div class="ttdef"><b>Definition</b> Log.h:221</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4b7036b56a49dc7084681c4c0385fbc6" name="a4b7036b56a49dc7084681c4c0385fbc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b7036b56a49dc7084681c4c0385fbc6">&#9670;&#160;</a></span>LOG_DEBUG2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LOG_DEBUG2</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((<a class="code hl_define" href="#a1a6f5d9796ad6b8fcd42f27dd6518b73">CLOG_DEBUG2</a> __VA_ARGS__))</div>
-<div class="ttc" id="aLog_8h_html_a1a6f5d9796ad6b8fcd42f27dd6518b73"><div class="ttname"><a href="#a1a6f5d9796ad6b8fcd42f27dd6518b73">CLOG_DEBUG2</a></div><div class="ttdeci">#define CLOG_DEBUG2</div><div class="ttdef"><b>Definition</b> Log.h:222</div></div>
+<div class="ttc" id="aLog_8h_html_a3dc6b9e7273bc09396310d9cdf41f690"><div class="ttname"><a href="#a3dc6b9e7273bc09396310d9cdf41f690">CLOG_DEBUG</a></div><div class="ttdeci">#define CLOG_DEBUG</div><div class="ttdef"><b>Definition</b> Log.h:212</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -769,7 +672,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((<a class="code hl_define" href="#ac2c0dbe55ad449a4f4ea00e1f5a93160">CLOG_ERR</a> __VA_ARGS__))</div>
-<div class="ttc" id="aLog_8h_html_ac2c0dbe55ad449a4f4ea00e1f5a93160"><div class="ttname"><a href="#ac2c0dbe55ad449a4f4ea00e1f5a93160">CLOG_ERR</a></div><div class="ttdeci">#define CLOG_ERR</div><div class="ttdef"><b>Definition</b> Log.h:216</div></div>
+<div class="ttc" id="aLog_8h_html_ac2c0dbe55ad449a4f4ea00e1f5a93160"><div class="ttname"><a href="#ac2c0dbe55ad449a4f4ea00e1f5a93160">CLOG_ERR</a></div><div class="ttdeci">#define CLOG_ERR</div><div class="ttdef"><b>Definition</b> Log.h:209</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -788,26 +691,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((<a class="code hl_define" href="#a984c30f63a9501d242fedd0439f1ed11">CLOG_INFO</a> __VA_ARGS__))</div>
-<div class="ttc" id="aLog_8h_html_a984c30f63a9501d242fedd0439f1ed11"><div class="ttname"><a href="#a984c30f63a9501d242fedd0439f1ed11">CLOG_INFO</a></div><div class="ttdeci">#define CLOG_INFO</div><div class="ttdef"><b>Definition</b> Log.h:219</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ae438ca6a3afbac24d1468bebe035269d" name="ae438ca6a3afbac24d1468bebe035269d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae438ca6a3afbac24d1468bebe035269d">&#9670;&#160;</a></span>LOG_NOTE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LOG_NOTE</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((<a class="code hl_define" href="#aac036dc6ac96a54a7db0ff29e61c6e86">CLOG_NOTE</a> __VA_ARGS__))</div>
-<div class="ttc" id="aLog_8h_html_aac036dc6ac96a54a7db0ff29e61c6e86"><div class="ttname"><a href="#aac036dc6ac96a54a7db0ff29e61c6e86">CLOG_NOTE</a></div><div class="ttdeci">#define CLOG_NOTE</div><div class="ttdef"><b>Definition</b> Log.h:218</div></div>
+<div class="ttc" id="aLog_8h_html_a984c30f63a9501d242fedd0439f1ed11"><div class="ttname"><a href="#a984c30f63a9501d242fedd0439f1ed11">CLOG_INFO</a></div><div class="ttdeci">#define CLOG_INFO</div><div class="ttdef"><b>Definition</b> Log.h:211</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -826,7 +710,26 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((<a class="code hl_define" href="#a1cdffb99e278d39c01456433dbd7c55a">CLOG_PRINT</a> __VA_ARGS__))</div>
-<div class="ttc" id="aLog_8h_html_a1cdffb99e278d39c01456433dbd7c55a"><div class="ttname"><a href="#a1cdffb99e278d39c01456433dbd7c55a">CLOG_PRINT</a></div><div class="ttdeci">#define CLOG_PRINT</div><div class="ttdef"><b>Definition</b> Log.h:214</div></div>
+<div class="ttc" id="aLog_8h_html_a1cdffb99e278d39c01456433dbd7c55a"><div class="ttname"><a href="#a1cdffb99e278d39c01456433dbd7c55a">CLOG_PRINT</a></div><div class="ttdeci">#define CLOG_PRINT</div><div class="ttdef"><b>Definition</b> Log.h:207</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9e7072460e1de0d89f6c8e5b7fcf1260" name="a9e7072460e1de0d89f6c8e5b7fcf1260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7072460e1de0d89f6c8e5b7fcf1260">&#9670;&#160;</a></span>LOG_VERBOSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOG_VERBOSE</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((<a class="code hl_define" href="#a98eed879e7a09bf92f1ecdea0254a0c2">CLOG_VERBOSE</a> __VA_ARGS__))</div>
+<div class="ttc" id="aLog_8h_html_a98eed879e7a09bf92f1ecdea0254a0c2"><div class="ttname"><a href="#a98eed879e7a09bf92f1ecdea0254a0c2">CLOG_VERBOSE</a></div><div class="ttdeci">#define CLOG_VERBOSE</div><div class="ttdef"><b>Definition</b> Log.h:213</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -845,7 +748,7 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a5216b78c92cbb3c416d909eb9f3253d1">LOG</a>((<a class="code hl_define" href="#aa35f4018af5f6bc5a8e9a5da56823b94">CLOG_WARN</a> __VA_ARGS__))</div>
-<div class="ttc" id="aLog_8h_html_aa35f4018af5f6bc5a8e9a5da56823b94"><div class="ttname"><a href="#aa35f4018af5f6bc5a8e9a5da56823b94">CLOG_WARN</a></div><div class="ttdeci">#define CLOG_WARN</div><div class="ttdef"><b>Definition</b> Log.h:217</div></div>
+<div class="ttc" id="aLog_8h_html_aa35f4018af5f6bc5a8e9a5da56823b94"><div class="ttname"><a href="#aa35f4018af5f6bc5a8e9a5da56823b94">CLOG_WARN</a></div><div class="ttdeci">#define CLOG_WARN</div><div class="ttdef"><b>Definition</b> Log.h:210</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -870,7 +773,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordflow">if</span> (_a1)                                                                                                             \</div>
 <div class="line"><a class="code hl_define" href="#a05785244b5afab2f72b74f922dfb777b">CLOG</a>-&gt;print _a2</div>
 </div><!-- fragment --><p>Write to the log if and only if expr is true. Because macros cannot accept variable arguments, this should be invoked like so: </p><div class="fragment"><div class="line"><a class="code hl_define" href="#a8e30ee25bb9b218db18f0805c5063522">LOGC</a>(<a class="code hl_variable" href="ServerConfig_8cpp.html#a6150e0515f7202e2fb518f7206ed97dc">x</a> == <a class="code hl_variable" href="ServerConfig_8cpp.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>, (CLOG_XXX <span class="stringliteral">&quot;%d and %d are equal&quot;</span>, <a class="code hl_variable" href="ServerConfig_8cpp.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>, <a class="code hl_variable" href="ServerConfig_8cpp.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>));</div>
-<div class="ttc" id="aLog_8h_html_a8e30ee25bb9b218db18f0805c5063522"><div class="ttname"><a href="#a8e30ee25bb9b218db18f0805c5063522">LOGC</a></div><div class="ttdeci">#define LOGC(_a1, _a2)</div><div class="ttdef"><b>Definition</b> Log.h:191</div></div>
+<div class="ttc" id="aLog_8h_html_a8e30ee25bb9b218db18f0805c5063522"><div class="ttname"><a href="#a8e30ee25bb9b218db18f0805c5063522">LOGC</a></div><div class="ttdeci">#define LOGC(_a1, _a2)</div><div class="ttdef"><b>Definition</b> Log.h:186</div></div>
 </div><!-- fragment --><p> In particular, notice the parentheses around everything after the boolean expression. Also note that there is no comma after the <code>CLOG_XXX</code>. The <code>XXX</code> should be replaced by one of enumerants in <code>Log::LogLevel</code> without the leading <code>k</code>. For example, <code>CLOG_INFO</code>. The special <code>CLOG_PRINT</code> level will not be filtered and is never prefixed by the filename and line number.</p>
 <p>If <code>NOLOGGING</code> is defined during the build then this macro expands to nothing. If <code>NDEBUG</code> is not defined during the build then it expands to a call to <a class="el" href="classLog.html#a243b6feb9f64bccfa82a6c3afffd7fcf" title="Print a log message.">Log::print</a> that prints the filename and line number, otherwise it expands to a call that doesn't. </p>
 

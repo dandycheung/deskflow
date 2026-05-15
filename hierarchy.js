@@ -338,6 +338,7 @@ var hierarchy =
       [ "App", "classApp.html", null ],
       [ "DaemonApp", "classDaemonApp.html", null ],
       [ "I18N", "classI18N.html", null ],
+      [ "LogLevel", "classLogLevel.html", null ],
       [ "Settings", "classSettings.html", null ],
       [ "VersionChecker", "classVersionChecker.html", null ],
       [ "WlClipboard", "classWlClipboard.html", null ],

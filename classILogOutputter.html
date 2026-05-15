@@ -126,8 +126,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a270bde79491303617d509a60800ec07e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the outputter.  <br /></td></tr>
 <tr class="memitem:a1a25270747c3028b2977f74f57cd20f5" id="r_a1a25270747c3028b2977f74f57cd20f5"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a1a25270747c3028b2977f74f57cd20f5">close</a> ()=0</td></tr>
 <tr class="memdesc:a1a25270747c3028b2977f74f57cd20f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the outputter.  <br /></td></tr>
-<tr class="memitem:a066005e1eb18339e9cc7a2ee66374719" id="r_a066005e1eb18339e9cc7a2ee66374719"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a066005e1eb18339e9cc7a2ee66374719">write</a> (<a class="el" href="LogLevel_8h.html#aca1fd1d8935433e6ba2e3918214e07f9">LogLevel</a> <a class="el" href="ArchNetworkWinsock_8cpp.html#a16b9a398646d8d46205fb34769946458">level</a>, const QString &amp;message)=0</td></tr>
-<tr class="memdesc:a066005e1eb18339e9cc7a2ee66374719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a message with level.  <br /></td></tr>
+<tr class="memitem:a0356256e3c83e29076b37c5c628e696f" id="r_a0356256e3c83e29076b37c5c628e696f"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a0356256e3c83e29076b37c5c628e696f">write</a> (<a class="el" href="classLogLevel.html#ab0a9f32f9109f1bfc782310ab529665f">LogLevel::Level</a> <a class="el" href="ArchNetworkWinsock_8cpp.html#a16b9a398646d8d46205fb34769946458">level</a>, const QString &amp;message)=0</td></tr>
+<tr class="memdesc:a0356256e3c83e29076b37c5c628e696f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write a message with level.  <br /></td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Outputter interface. </p>
@@ -219,8 +219,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a066005e1eb18339e9cc7a2ee66374719" name="a066005e1eb18339e9cc7a2ee66374719"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a066005e1eb18339e9cc7a2ee66374719">&#9670;&#160;</a></span>write()</h2>
+<a id="a0356256e3c83e29076b37c5c628e696f" name="a0356256e3c83e29076b37c5c628e696f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0356256e3c83e29076b37c5c628e696f">&#9670;&#160;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,7 +231,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual bool ILogOutputter::write </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="LogLevel_8h.html#aca1fd1d8935433e6ba2e3918214e07f9">LogLevel</a></td>          <td class="paramname"><span class="paramname"><em>level</em></span>, </td>
+          <td class="paramtype"><a class="el" href="classLogLevel.html#ab0a9f32f9109f1bfc782310ab529665f">LogLevel::Level</a></td>          <td class="paramname"><span class="paramname"><em>level</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -249,7 +249,7 @@ Public Member Functions</h2></td></tr>
 <p>Write a message with level. </p>
 <p>Writes <code>message</code>, which has the given <code>level</code>, to a log. If this method returns true then <a class="el" href="classLog.html" title="Logging facility.">Log</a> will stop passing the message to all outputters in the outputter chain, otherwise it continues. Most implementations should return true. </p>
 
-<p>Implemented in <a class="el" href="classConsoleLogOutputter.html#aba6561fd447aa67d21f36a60bd2a33b2">ConsoleLogOutputter</a>, <a class="el" href="classFileLogOutputter.html#a52fbabec7266a776091b925dbc56ccc3">FileLogOutputter</a>, <a class="el" href="classMSWindowsDebugOutputter.html#addde051851b28476f792def9ee44085a">MSWindowsDebugOutputter</a>, <a class="el" href="classStopLogOutputter.html#aae48182c81206b14dc947d71c9c11975">StopLogOutputter</a>, and <a class="el" href="classSystemLogOutputter.html#a5e5339ffb0650f7b9f7958717d94f613">SystemLogOutputter</a>.</p>
+<p>Implemented in <a class="el" href="classConsoleLogOutputter.html#a53a9ba4c2430b886692afe6ac615f3b7">ConsoleLogOutputter</a>, <a class="el" href="classFileLogOutputter.html#aad90ffd923da859b776284cf1ab1e6da">FileLogOutputter</a>, <a class="el" href="classMSWindowsDebugOutputter.html#a36d69352d0d0bd50f3a8413f20530fd2">MSWindowsDebugOutputter</a>, <a class="el" href="classStopLogOutputter.html#a2290a8af3370d3a72719a26e211fbe13">StopLogOutputter</a>, and <a class="el" href="classSystemLogOutputter.html#a7f6b2406e3682c74b5ab136d8a0cc73f">SystemLogOutputter</a>.</p>
 
 </div>
 </div>

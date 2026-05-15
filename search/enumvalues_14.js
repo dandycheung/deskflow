@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['warning_0',['Warning',['../LogLevel_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'LogLevel.h']]]
+  ['verbose_0',['Verbose',['../classLogLevel.html#ab0a9f32f9109f1bfc782310ab529665fad4a9fa383ab700c5bdd6f31cf7df0faf',1,'LogLevel']]]
 ];

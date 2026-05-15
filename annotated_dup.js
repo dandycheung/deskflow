@@ -202,6 +202,7 @@ var annotated_dup =
     [ "Lock", "classLock.html", "classLock" ],
     [ "Log", "classLog.html", "classLog" ],
     [ "LogDock", "classLogDock.html", "classLogDock" ],
+    [ "LogLevel", "classLogLevel.html", "classLogLevel" ],
     [ "LogWidget", "classLogWidget.html", "classLogWidget" ],
     [ "MainWindow", "classMainWindow.html", "classMainWindow" ],
     [ "MSWindowsClipboard", "classMSWindowsClipboard.html", "classMSWindowsClipboard" ],

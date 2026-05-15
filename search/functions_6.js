@@ -53,6 +53,7 @@ var searchData=
   ['fromles32_50',['fromLES32',['../XWindowsClipboardAnyBitmapConverter_8cpp.html#a32982acfe2ebacf915d95f82888f2933',1,'XWindowsClipboardAnyBitmapConverter.cpp']]],
   ['fromleu16_51',['fromLEU16',['../XWindowsClipboardAnyBitmapConverter_8cpp.html#afdd8d0ab71e1858829f517aa07c815a6',1,'XWindowsClipboardAnyBitmapConverter.cpp']]],
   ['fromleu32_52',['fromLEU32',['../OSXClipboardBMPConverter_8cpp.html#a9b4e877b5101f07289b4b163b6a3838d',1,'fromLEU32(const uint8_t *data):&#160;OSXClipboardBMPConverter.cpp'],['../XWindowsClipboardAnyBitmapConverter_8cpp.html#a9b4e877b5101f07289b4b163b6a3838d',1,'fromLEU32(const uint8_t *data):&#160;XWindowsClipboardAnyBitmapConverter.cpp'],['../XWindowsClipboardBMPConverter_8cpp.html#a9b4e877b5101f07289b4b163b6a3838d',1,'fromLEU32(const uint8_t *data):&#160;XWindowsClipboardBMPConverter.cpp']]],
-  ['functioneventjob_53',['FunctionEventJob',['../classFunctionEventJob.html#ab5d67ff3f358b87eab56ebaea268c368',1,'FunctionEventJob']]],
-  ['functionjob_54',['FunctionJob',['../classFunctionJob.html#ac838394bfaf5e7d2dca08b69c9ea193f',1,'FunctionJob']]]
+  ['fromoption_53',['fromOption',['../classLogLevel.html#af13902f9f04dba784d71af6f019cd8e4',1,'LogLevel']]],
+  ['functioneventjob_54',['FunctionEventJob',['../classFunctionEventJob.html#ab5d67ff3f358b87eab56ebaea268c368',1,'FunctionEventJob']]],
+  ['functionjob_55',['FunctionJob',['../classFunctionJob.html#ac838394bfaf5e7d2dca08b69c9ea193f',1,'FunctionJob']]]
 ];

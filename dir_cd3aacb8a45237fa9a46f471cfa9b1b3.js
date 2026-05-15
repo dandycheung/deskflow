@@ -19,7 +19,6 @@ var dir_cd3aacb8a45237fa9a46f471cfa9b1b3 =
     [ "ILogOutputter.h", "ILogOutputter_8h.html", "ILogOutputter_8h" ],
     [ "Log.cpp", "Log_8cpp.html", "Log_8cpp" ],
     [ "Log.h", "Log_8h.html", "Log_8h" ],
-    [ "LogLevel.h", "LogLevel_8h.html", "LogLevel_8h" ],
     [ "LogOutputters.cpp", "LogOutputters_8cpp.html", "LogOutputters_8cpp" ],
     [ "LogOutputters.h", "LogOutputters_8h.html", "LogOutputters_8h" ],
     [ "PriorityQueue.h", "PriorityQueue_8h.html", "PriorityQueue_8h" ],

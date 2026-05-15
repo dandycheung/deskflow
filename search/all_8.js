@@ -17,7 +17,7 @@ var searchData=
   ['fakemouserelativemove_14',['fakeMouseRelativeMove',['../classISecondaryScreen.html#a7a5573a06e4e70e7a3a218a709f322a3',1,'ISecondaryScreen::fakeMouseRelativeMove()'],['../classPlatformScreen.html#a9b2db025722e7b61c247aa75b823eef8',1,'PlatformScreen::fakeMouseRelativeMove()'],['../classdeskflow_1_1EiScreen.html#ac0a27056d17f948aa7557115f2effa12',1,'deskflow::EiScreen::fakeMouseRelativeMove()'],['../classMSWindowsDesks.html#a9ede24dee0f8eaacfa46a802c0f3282f',1,'MSWindowsDesks::fakeMouseRelativeMove()'],['../classMSWindowsScreen.html#a000c21d039ad26f6665e0fe043c0f6b7',1,'MSWindowsScreen::fakeMouseRelativeMove()'],['../classOSXScreen.html#a7b59e3f1364bec5e64f0e565d7b4155d',1,'OSXScreen::fakeMouseRelativeMove()'],['../classXWindowsScreen.html#a25a73a3077b6a30c1ed3402feb47463e',1,'XWindowsScreen::fakeMouseRelativeMove()']]],
   ['fakemousewheel_15',['fakeMouseWheel',['../classISecondaryScreen.html#a068c8fa86136e95a417a83db513513e0',1,'ISecondaryScreen::fakeMouseWheel()'],['../classPlatformScreen.html#a48b99f214ac07346239fc6ac14d59b74',1,'PlatformScreen::fakeMouseWheel()'],['../classdeskflow_1_1EiScreen.html#a583787da1039080a17b85da9aabff99c',1,'deskflow::EiScreen::fakeMouseWheel()'],['../classMSWindowsDesks.html#a4a6bc7878c59dd81c7585e98b83ca0d7',1,'MSWindowsDesks::fakeMouseWheel()'],['../classMSWindowsScreen.html#ab2e1c07805c3334fe8225c79bb3764e4',1,'MSWindowsScreen::fakeMouseWheel()'],['../classOSXScreen.html#ad55d2f91f3893950200545b42eb715b0',1,'OSXScreen::fakeMouseWheel()'],['../classXWindowsScreen.html#ae9b5912820f97b4ed0edcfa6405608bc',1,'XWindowsScreen::fakeMouseWheel()']]],
   ['fakenativemediakey_16',['fakeNativeMediaKey',['../OSXMediaKeySupport_8h.html#a3335d4beeebeaee57e9a206c10608cb0',1,'fakeNativeMediaKey(KeyID id):&#160;OSXMediaKeySupport.m'],['../OSXMediaKeySupport_8m.html#a3335d4beeebeaee57e9a206c10608cb0',1,'fakeNativeMediaKey(KeyID id):&#160;OSXMediaKeySupport.m']]],
-  ['fatal_17',['Fatal',['../LogLevel_8h.html#aca1fd1d8935433e6ba2e3918214e07f9a882384ec38ce8d9582b57e70861730e4',1,'LogLevel.h']]],
+  ['fatal_17',['Fatal',['../classLogLevel.html#ab0a9f32f9109f1bfc782310ab529665fa882384ec38ce8d9582b57e70861730e4',1,'LogLevel']]],
   ['fd_5fisset_18',['FD_ISSET',['../ArchNetworkWinsock_8cpp.html#a0d02a891286ee61c9e7ecd291c96567f',1,'ArchNetworkWinsock.cpp']]],
   ['fdset_19',['fdset',['../ArchNetworkWinsock_8cpp.html#a1090ad3c224a4e94802b39f903edb66a',1,'ArchNetworkWinsock.cpp']]],
   ['features_20',['Advanced Features',['../protocol_reference.html#autotoc_md41',1,'']]],
@@ -82,11 +82,12 @@ var searchData=
   ['fromles32_79',['fromLES32',['../XWindowsClipboardAnyBitmapConverter_8cpp.html#a32982acfe2ebacf915d95f82888f2933',1,'XWindowsClipboardAnyBitmapConverter.cpp']]],
   ['fromleu16_80',['fromLEU16',['../XWindowsClipboardAnyBitmapConverter_8cpp.html#afdd8d0ab71e1858829f517aa07c815a6',1,'XWindowsClipboardAnyBitmapConverter.cpp']]],
   ['fromleu32_81',['fromLEU32',['../OSXClipboardBMPConverter_8cpp.html#a9b4e877b5101f07289b4b163b6a3838d',1,'fromLEU32(const uint8_t *data):&#160;OSXClipboardBMPConverter.cpp'],['../XWindowsClipboardAnyBitmapConverter_8cpp.html#a9b4e877b5101f07289b4b163b6a3838d',1,'fromLEU32(const uint8_t *data):&#160;XWindowsClipboardAnyBitmapConverter.cpp'],['../XWindowsClipboardBMPConverter_8cpp.html#a9b4e877b5101f07289b4b163b6a3838d',1,'fromLEU32(const uint8_t *data):&#160;XWindowsClipboardBMPConverter.cpp']]],
-  ['full_20guidelines_82',['Read the Full Guidelines',['../contributing_guide.html#autotoc_md10',1,'']]],
-  ['functioneventjob_83',['FunctionEventJob',['../classFunctionEventJob.html',1,'FunctionEventJob'],['../classFunctionEventJob.html#ab5d67ff3f358b87eab56ebaea268c368',1,'FunctionEventJob::FunctionEventJob()']]],
-  ['functioneventjob_2ecpp_84',['FunctionEventJob.cpp',['../FunctionEventJob_8cpp.html',1,'']]],
-  ['functioneventjob_2eh_85',['FunctionEventJob.h',['../FunctionEventJob_8h.html',1,'']]],
-  ['functionjob_86',['FunctionJob',['../classFunctionJob.html',1,'FunctionJob'],['../classFunctionJob.html#ac838394bfaf5e7d2dca08b69c9ea193f',1,'FunctionJob::FunctionJob()']]],
-  ['functionjob_2ecpp_87',['FunctionJob.cpp',['../FunctionJob_8cpp.html',1,'']]],
-  ['functionjob_2eh_88',['FunctionJob.h',['../FunctionJob_8h.html',1,'']]]
+  ['fromoption_82',['fromOption',['../classLogLevel.html#af13902f9f04dba784d71af6f019cd8e4',1,'LogLevel']]],
+  ['full_20guidelines_83',['Read the Full Guidelines',['../contributing_guide.html#autotoc_md10',1,'']]],
+  ['functioneventjob_84',['FunctionEventJob',['../classFunctionEventJob.html',1,'FunctionEventJob'],['../classFunctionEventJob.html#ab5d67ff3f358b87eab56ebaea268c368',1,'FunctionEventJob::FunctionEventJob()']]],
+  ['functioneventjob_2ecpp_85',['FunctionEventJob.cpp',['../FunctionEventJob_8cpp.html',1,'']]],
+  ['functioneventjob_2eh_86',['FunctionEventJob.h',['../FunctionEventJob_8h.html',1,'']]],
+  ['functionjob_87',['FunctionJob',['../classFunctionJob.html',1,'FunctionJob'],['../classFunctionJob.html#ac838394bfaf5e7d2dca08b69c9ea193f',1,'FunctionJob::FunctionJob()']]],
+  ['functionjob_2ecpp_88',['FunctionJob.cpp',['../FunctionJob_8cpp.html',1,'']]],
+  ['functionjob_2eh_89',['FunctionJob.h',['../FunctionJob_8h.html',1,'']]]
 ];
